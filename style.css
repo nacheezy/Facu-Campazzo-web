@@ -1,0 +1,1532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.menu{
+    width: 100% ;
+    display: grid;
+    
+    
+}
+.in{
+    background-image: url(imagenes/SelArg/FacuGritando.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.gale{
+    background-image: url(imagenes/murcia/FacuPase.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.bi{
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.cs{
+    background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.s{
+    background-image: url(imagenes/denver/FacuBandeja4.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+
+.fotoMenu{
+    
+    background-image: url(imagenes/murcia/FacuPase.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.galeria{
+    background-color: rgb(0, 0, 139);
+    margin-top: 40px;
+    padding-top: 10px;
+    gap: 3px;
+}
+.item1{
+    background-image: url(imagenes/denver/FacuBandeja4.jpg);
+    background-size: cover;
+    background-position:center ;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.item2{
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: fit-content;
+}
+.item3:hover{
+    transform: scale(1.03);
+    transition: all 1s;
+}
+.item4{
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.item5{
+    background-image: url(imagenes/SelArg/FacuVsDeAndreJordan.jpg);
+    background-size: cover;
+    
+}
+.item6{
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.item7{
+    background-image: url(imagenes/SelArg/fondopr5.jpg);
+    background-size: cover;
+    background-position: left;
+   
+}
+.item8{
+    background-image: url(imagenes/realMadrid/FacuGritando2.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.item9{
+    background-image: url(imagenes/SelArg/FacuAbrazo.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.item10{
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item11{
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.video1{
+    display: flex;
+    margin: 5% 0% 1% 5%;
+    padding: 3%;
+    background-color: rgb(0, 0, 139);
+    box-shadow: 1px 0px 0 #fff;
+    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+    
+}
+.video2{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 5% 2% 0% ;
+    padding: 3%;
+    background-color: rgb(0, 0, 139);
+    box-shadow: 1px 0px 0 #fff;
+    box-shadow: 10px 10px 0  rgba(31, 103, 235, 0.7);
+}
+.video3{
+    display: flex;
+    margin: 5% 0% 1% 5%;
+    padding: 3%;
+    background-color: rgb(0, 0, 139);
+    box-shadow: 1px 0px 0 #fff;
+    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+}
+.separacion{
+    background-color: white;
+    height: 75px;
+}
+
+/*************************index***************************************/
+.fotoMenu1{
+    width: 100%;
+}
+.ga h4{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: px;
+    text-align: center;  
+    padding: 2px; 
+    font-size: 50px;
+}
+.banner{
+    background-color: rgb(0, 0, 139);
+    width: 100%;
+    height: 50px;
+}
+#background{
+    background-image: url(imagenes/facuSentadoConPelota.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 300px;
+    left: 50%;
+    background-size: 35%;
+    background-position: 20%;
+}
+.p1{
+    width: 30rem;
+    font-size: 200%;
+    height: 100%;
+    margin-left: 35%;
+    text-align: right;
+    padding-top: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p2{
+    width: 30rem;
+    font-size: 200%;
+    height: 100%;
+    margin-left: 35%;
+    text-align: right;
+    padding-top: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p3{
+    width: 30rem;
+    font-size: 200%;
+    height: 100%;
+    margin-left: 35%;
+    text-align: right;
+    padding-top: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+/************************************************************* footer****************************************************/
+
+.box{
+    width: 100%;
+    height: 10rem;
+    background-image: linear-gradient(rgb(0, 0, 139),black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 1rem;
+}
+p small{
+    color: white;
+    text-align: center;
+}
+
+/*******************************seccion contacto************************/
+
+.div{
+    background-color: white;
+    height: 5px;
+}
+#fondo{
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+}
+.registro{
+    width: 500px;
+    background: rgba(36, 48, 60, 0.5);
+    padding: 50px;
+    padding-bottom: 8%;
+    margin: auto;
+    border-radius: 4x;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.registro h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.registro h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+.registro p{
+    width: 100%;
+    height: px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.registro a{
+    color: white;
+    text-decoration: none;
+}
+.registro a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.registro .botons{
+    width: 100%;
+    background:#1f53c5;
+    padding: 12px;
+    color: white;
+    margin: 16xp 0;
+    font-size: 16px;
+}
+.fcontacto{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgb(0, 0, 139),black);
+    margin-top: 2%;
+    border-top: whitesmoke solid;
+} 
+#psorteo{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/********************************seccion camisetas********************************/
+
+.imgFondoCamisetas{
+    background-image: url(imagenes/wave-haikei2.png);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin-top: 50px;
+    font-size: 70px;
+    color: rgb(0, 0, 139);
+    text-align: center;
+
+}
+div.recuadro{ 
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    float: left;
+    width: 350px;
+}
+div.recuadro img{
+    width: 100%;
+    height: auto;
+}
+div.recuadro:hover{
+    border: 2px solid blue;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    padding: 10px;
+
+}
+
+.pcamisetas1{
+    font-size: 35px;
+    margin: 20px;
+    text-align: center;
+} 
+.pcamisetas2{
+    font-size: 35px;
+    margin: 20px;
+    text-align: center;
+}
+.fondoCamisetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/******************************************************* seccion biografia ******************************************************************/
+
+.fotoPrincipal2{
+    width: 100%;
+}
+.img1bio { grid-area: img1;
+    background-image: url(imagenes/SelArg/FacuGritando.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-right: 5px;
+}
+.img1bio:hover{
+    border: solid rgb(0, 0, 139) 3px;
+}
+.mainbio{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1{
+    color: rgb(0, 50, 139);
+    padding: 5%;
+    font-size: 500%;
+    text-decoration: underline;
+    position: sticky;
+}
+
+.conteiner-all img{
+    width: 300px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 45%;
+    margin-right: 10%;
+    border:solid rgb(0, 0, 139) 5px;
+}
+.txt1{
+    text-align: right;
+    margin-left: 50%;
+    margin-right: 5%;
+    padding-top: 5%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.conteiner2  img{
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    border: solid #00008b 5px;
+    margin-left: 3%;
+    padding-right: 0%;
+}
+.txt2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 25%;
+    padding-right: 0%;
+    margin-left: 5%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    margin-right: 40%;
+}     
+.conteiner3 img{
+    width: 600px;
+    float: left;
+    margin-left: 5%;
+    border-radius: 30%;
+    margin-right: 10%;
+    border: solid rgb(0, 0, 139) 5px;
+} 
+.txt3{
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 5%;
+    padding-top: 15%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+} 
+#conteiner4 img{
+    width: 35%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: solid rgb(0, 0, 139) 5px;
+}
+.txt4{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 30%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.conteiner5 img{
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 23%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: solid rgb(0, 0, 139) 5px;
+}
+.txt5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 35%;
+    margin-left: 3%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    margin-right: 50%;
+}
+.conteiner6 img{
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: solid rgb(0, 0, 139) 5px;
+    margin-left: 3%;
+}
+.txt6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10%;
+    margin-left: 5%;
+    border-bottom: solid rgb(0, 0, 139) 5px;
+    margin-right: 40%;
+}
+.conteiner7 img{
+    width: 74%;
+    position: relative;
+    left: 10%;
+    margin-top: 3%;
+    margin-right: 23%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: solid rgb(0, 0, 139) 5px;
+} 
+.txt7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: top;
+    padding-top: 30%;
+    margin-left: 20%;
+    border-bottom: solid rgb(0, 0, 139) 5px;
+    
+}
+.txt7b{
+    text-align:end;
+    padding-top: 0%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    margin-right:40% ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.conteiner8 img{
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: solid rgb(0, 0, 139) 5px;
+    margin-left: 3%;
+}
+.txt8{
+    text-align: left;
+    padding-top: 25%;
+    margin-left: 5%;
+    border-bottom:solid rgb(0, 0, 139) 5px;
+    margin-right: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.txtfinal{
+    padding-top: 15%;
+    margin-left: 75%;
+    margin-bottom: 15px;
+    border-bottom: solid rgb(0, 0, 139) 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+} 
+
+
+@media only screen and (max-width:320px){
+    .fotoMenu{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 5px;
+    }
+    #bannerGale{
+        background-color: rgb(0, 0, 139);
+        background-size: 100%;
+        height: 50px;
+    }
+    .galeria{
+        grid-template-columns: repeat(1,fr);
+        padding-top: 10px;
+        
+    }
+    .item1, .item2, .item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11{
+        height: 300px;
+        text-align: center;
+    }
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+        border: 1px solid white;
+    }
+    .in:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .gale:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .bi:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .cs:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .s:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+    
+    }   
+    a:hover{
+        background-color:  rgb(0, 0, 139, 0.5);
+    
+    }
+    h4{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    h4:hover{
+        border: solid rgb(0, 0, 139) 3px;
+        
+    }
+    
+    p small{
+        color: white;
+        text-align: center;
+        display: flex;
+        padding: 3px;
+    }
+    /********************* MQ INDEX *************************/
+
+    .fotoPrincipal{
+        width: 100%;
+    }  
+    #background{
+        background-image: url(imagenes/facuSentadoConPelota.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 300px;
+        left: 50%;
+        background-size: 50%;
+        background-position: 50%;
+    }
+    .p1{
+        width: 100px;
+        font-size: 15px;
+        height: 100%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p2{
+        width: 100px;
+        font-size: 15px;
+        height: 100%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p3{
+        width: 100px;
+        font-size: 15px;
+        height: 100%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .fc7{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        padding-top: 10px;
+        padding-left: 130px;
+        padding-bottom: 50px;
+        
+    }
+    p small{
+        color: white;
+        text-align: center;
+        padding: 3px;
+        font-size: 8px;
+    }
+     /******************** MQ CONTACTO ********************/
+     
+    #fondo{
+        padding-top: 75px;
+        padding-bottom: 75px;
+              
+    }
+    .registro{
+        width: 200px;
+    }
+    .registro h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .registro h5{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .controls{
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: blanchedalmond;
+    }
+    .registro p{
+        width: 100%;
+        height: px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .registro a{
+        color: white;
+        text-decoration: none;
+    }
+    .registro a:hover{
+        color:white;
+        text-decoration: underline;
+    }
+    .registro .botons{
+        width: 100%;
+        background:#1f53c5;
+        padding: 12px;
+        color: white;
+        margin: 16xp 0;
+        font-size: 16px;
+    }
+    .fcontacto{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(rgb(0, 0, 139),black);
+        margin-top: 2%;
+        border-top: whitesmoke solid;
+    } 
+    #psorteo{
+        font-size: 15px;
+        padding-top: 10px;
+    }   
+/*******************************MQ CAMISETAS***************************************/
+    .fondoCamisetas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div.recuadro{ 
+        margin: 10px 20px;
+        box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+        float: left;
+        width: 300px;
+    }
+    div.recuadro img{
+        width: 100%;
+        height: auto;
+    }
+    div.recuadro:hover{
+        border: 2px solid blue;
+        transform: rotate(-3deg);
+    }
+    div.pie{
+        text-align: center;
+        text-shadow: 2px 2px 5px blue;
+        padding: 10px;
+    
+    }
+    .title{
+        width: 100px;
+    }
+    .menu{
+        width: 200%;
+    }
+    .banner{
+        width: 100%;
+    }
+
+    /***************MQ BIO*****************/
+    
+    *{
+        text-align: center;
+    }
+    .txtfinal{
+        font-size: 20px;
+        margin-left: 1px;
+    }
+    .conteiner3 img{
+        width: 300px;
+        float: left;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        border-radius: 30%;
+        margin-right: 10%;
+        border: solid rgb(0, 0, 139) 5px;
+    } 
+    .conteiner2 img{
+        width: 250px;
+    }
+    .contariner-all img{
+        width: 50px;
+    }
+    #conteiner4 img{
+        width: 250px;
+    }
+    .conteiner5 img{
+        width: 250px;
+    }
+    .conteiner6 img{
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .conteiner8 img{
+        width: 250px;
+    }
+    .title{
+        width: 50px;
+    }
+    .banner{width: 360px;}
+    .menu{
+        width: 113%;
+    }
+    .fotoMenu{
+        width: 120%;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:767px){
+    .menu{
+        grid-template-columns: repeat(2,50%);
+
+        height: 200px;
+    }
+    .banner{
+        width: 200%;
+    }
+    
+    .fotoMenu{
+        width: 200%;
+        height: 400px;
+    }
+    #bannerGale{
+        background-color: rgb(0, 0, 139);
+        background-size: 100%;
+        height: 50px;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .item1, .item2, .item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+        height: 300px;
+        width: 100%;
+    }
+    .item11{
+        height: 300px;
+        width: 200%;
+
+    }
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+        border: 1px solid white;
+    }
+    .in:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .gale:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .bi:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .cs:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .s:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    
+    }   
+    a:hover{
+        background-color:  rgb(0, 0, 139, 0.5);
+    
+    }
+    h4:hover{
+        border: solid rgb(0, 0, 139) 3px;
+        
+    }    
+    .in h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .gale h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .bi h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .cs h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .s h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: 50px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .fotoPrincipal{
+        width: 100%;
+    }  
+    #background{
+        background-image: url(imagenes/facuSentadoConPelota.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 300px;
+        left: 50%;
+        background-size: 50%;
+        background-position: 50%;
+    }
+    .p1{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p2{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p3{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .fc7{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        padding-top: 10px;
+        padding-left: 130px;
+        padding-bottom: 50px;
+        
+    }
+    p small{
+        color: white;
+        text-align: center;
+        padding: 3px;
+        font-size: 8px;
+    }
+    /****************contacto **************/
+    #fondo{
+        
+        padding-top: 75px;
+        padding-bottom: 75px;
+        display:flex ;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    .registro{
+        width: 350px;
+    }
+    .registro h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .registro h5{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .controls{
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: blanchedalmond;
+    }
+    .registro p{
+        width: 100%;
+        height: px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .registro a{
+        color: white;
+        text-decoration: none;
+    }
+    .registro a:hover{
+        color:white;
+        text-decoration: underline;
+    }
+    .registro .botons{
+        width: 100%;
+        background:#1f53c5;
+        padding: 12px;
+        color: white;
+        margin: 16xp 0;
+        font-size: 16px;
+    }
+    .fcontacto{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(rgb(0, 0, 139),black);
+        margin-top: 2%;
+        border-top: whitesmoke solid;
+    } 
+    #psorteo{
+        font-size: 15px;
+        padding-top: 10px;
+    }   
+    /*****************MQ CAMISETAS************************/
+    .menu{
+        width: 200%;
+    }
+    .title{
+        width: 150%;
+        text-align: center;
+    }
+    .fondoCamisetas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div.recuadro{ 
+        margin: 10px 20px;
+        box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+        float: left;
+        width: 300px;
+    }
+    div.recuadro img{
+        width: 100%;
+        height: auto;
+    }
+    div.recuadro:hover{
+        border: 2px solid blue;
+        transform: rotate(-3deg);
+    }
+    div.pie{
+        text-align: center;
+        text-shadow: 2px 2px 5px blue;
+        padding: 10px;
+    
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .menu{
+        grid-template-columns: repeat(2,50%);
+
+        height: 200px;
+    }
+    
+    .fotoMenu{
+        width: 200%;
+        height: 300px;
+    }
+    #bannerGale{
+        background-color: rgb(0, 0, 139);
+        background-size: 100%;
+        height: 50px;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .item1, .item2, .item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+        height: 300px;
+        width: 100%;
+    }
+    .item11{
+        height: 300px;
+        width: 200%;
+
+    }
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+        border: 1px solid white;
+    }
+    .in:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .gale:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .bi:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .cs:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .s:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    
+    }   
+    a:hover{
+        background-color:  rgb(0, 0, 139, 0.5);
+    
+    }
+    h4:hover{
+        border: solid rgb(0, 0, 139) 3px;
+        
+    }    
+    .in h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .gale h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .bi h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .cs h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .s h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: 50px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .fotoPrincipal{
+        width: 100%;
+    }  
+    #background{
+        background-image: url(imagenes/facuSentadoConPelota.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 300px;
+        left: 50%;
+        background-size: 50%;
+        background-position: 50%;
+    }
+    .p1{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p2{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p3{
+        width: 250px;
+        font-size: 20px;
+        height: 20%;
+        text-align: center;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .fc7{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        padding-top: 10px;
+        padding-left: 350px;
+        padding-bottom: 50px;
+        
+    }
+    p small{
+        color: white;
+        text-align: center;
+        padding: 3px;
+        font-size: 8px;
+    }
+    /***************** mQ bio******************/
+    .fotoMenu{
+        width: 100%;
+        height: 350px;
+    }
+}
+@media only screen and (min-width:1024px){
+    
+    .menu{
+        grid-template-columns: repeat(4, 1fr);
+               
+    }
+    
+    .in{
+        background-image: url(imagenes/SelArg/FacuGritando.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+    }
+    .gale{
+        background-image: url(imagenes/murcia/FacuPase.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+    }
+    .bi{
+        background-image: url(imagenes/peñarol/FacuMvp.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .cs{
+        background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .s{
+        background-image: url(imagenes/denver/FacuBandeja4.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .in h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .gale h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .bi h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .cs h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .s h4{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: 50px;
+        text-align: center;  
+        padding: 2px; 
+        font-size: 50px;
+    }
+    .fotoMenu{
+        width: 100%;
+        height: 600px;
+    }
+    .banner{
+        background-color: rgb(0, 0, 139);
+        background-size: 100%;
+        height: 50px;
+    }
+
+    .galeria{
+        width: 100%;
+        min-height: 600px;
+        background-color: rgb(0, 0, 139);
+        display: grid;
+        padding: 10px;
+        gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 200px);
+    }
+    .item1{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .item2{
+        
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .item3{
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+    .item4{
+        grid-column:2/4;
+        grid-row: 2/4;
+    }
+    .item5{
+        grid-column: 4/5;
+        grid-row: 2/4; 
+    }
+    .item6{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+    .item8{
+        grid-column: 2/4;
+        grid-row:4/5 ;
+    }
+    .item9{
+        grid-column:4/5;
+        grid-row: 4/6;
+    }
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+        border: 1px solid white;
+    }
+    .item3:hover{
+        transform: scale(1.03);
+        transition: all 1s;
+        border: 1px solid white;
+    }
+    .in:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .gale:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .bi:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .cs:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .s:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    
+    }   
+    a:hover{
+        background-color:  rgb(0, 0, 139, 0.5);
+    
+    }
+    h4:hover{
+        border: solid rgb(0, 0, 139) 3px;
+        
+    }
+    .fotoPrincipal{
+        margin-left: 50%;
+        width: 200%;
+        height: 600px;
+    }  
+    #background{
+        background-image: url(imagenes/facuSentadoConPelota.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 300px;
+        left: 50%;
+        background-size: 35%;
+        background-position: 20%;
+    }
+    .p1{
+        width: 30rem;
+        font-size: 200%;
+        height: 100%;
+        margin-left: 50%;
+        margin-right: 5%;
+        text-align: right;
+        padding-top: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p2{
+        width: 30rem;
+        font-size: 200%;
+        height: 50%;
+        margin-left: 50%;
+        margin-right: 5%;
+        text-align: right;
+        padding-top: 20%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p3{
+        width: 30rem;
+        font-size: 200%;
+        height: 50%;
+        margin-left: 50%;
+        margin-right: 5%;
+        text-align: right;
+        padding-top: 20%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 20%;
+    }
+    .fc7{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+        padding-top: 10px;
+        padding-left: 700px;
+        padding-bottom: 100px;
+    }
+}
