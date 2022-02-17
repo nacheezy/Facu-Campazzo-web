@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facu Campazzo Web</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>    
-    <div class="fotoMenu"></div>
+    <!-- foto del principal del inicio -->
+    <header class="conteiner-fluid fotoPrincipalGale">   
+        <nav class="navbar navbar-expand">
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle" id="darkbutton" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagenes/FC7 logo.png" width="130" height="100" alt=""></button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a href="biografia.html" class="dropdown-item">Biografia</a></li>
+                    <li><a href="galeria.html" class="dropdown-item">Galeria</a></li>
+                    <li><a href="camisetas.html" class="dropdown-item">Camisetas</a></li>
+                    <li><a href="contacto.html" class="dropdown-item">Sorteo</a></li>
+                </ul>
+           </div>
+        </nav>
+    </header>
     <main>
-        <section class="menu">
-            <div class="in">
-                <a href="index.html">
-                    <h4>INICIO</h4>
-                </a>
-            </div>        
-            <div class="bi">
-                <a href="biografia.html">
-                    <h4>BIOGRAFIA</h4>
-                </a>
-            </div>
-            <div class="cs">
-                <a href="camisetas.html">
-                    <h4>CAMISETAS</h4>
-                </a>
-            </div>
-            <div class="s">
-                <a href="contacto.html">
-                    <h4>SORTEO</h4>
-                </a>
-            </div>
-        </section>
         <section>
             <div class="banner"></div>
         </section>
@@ -60,6 +54,38 @@
             <iframe data-aos="fade-right" width="480" height="315" src="https://www.youtube.com/embed/awNo0zfsSpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
+    <section>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="menu">
+        <div class="in">
+            <a href="index.html">
+                <h4>INICIO</h4>
+            </a>
+        </div>        
+        <div class="bi">
+            <a href="biografia.html">
+                <h4>BIOGRAFIA</h4>
+            </a>
+        </div>
+        <div class="cs">
+            <a href="camisetas.html">
+                <h4>CAMISETAS</h4>
+            </a>
+        </div>
+        <div class="s">
+            <a href="contacto.html">
+                <h4>SORTEO</h4>
+            </a>
+        </div>
+    </section>
     <div class="separacion"></div>
     <footer class="box">  
         <ul>

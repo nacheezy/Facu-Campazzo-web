@@ -392,14 +392,17 @@ h1{
 
 /*******************************seccion galeria *********************************/
 
-.fotoMenu{
+.fotoPrincipalGale{
+    background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+}
+/* .fotoMenu{
     
     background-image: url(imagenes/murcia/FacuPase.jpg);
     background-position: center;
     background-size: cover;
     
 
-}
+} */
 .galeria{
     background-color: rgb(0, 0, 139);
     margin-top: 40px;
@@ -509,6 +512,9 @@ h1{
 .separacion{
     background-color: white;
     height: 75px;
+}
+.Page{
+    background-color: #00008b;
 }
 
 /*******************************seccion contacto************************/
