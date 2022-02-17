@@ -147,13 +147,15 @@
     font-size: 60px;
     text-decoration: none;
     font-family: sans-serif;
+    text-align: center;
 }
 .jumbotron p{
-    text-align: center;
+    text-align: center !important; 
     padding-bottom: 70px;
     border-top: #00008b solid 3px;
     margin: 0px 350px;
     padding-top: 50px;
+    color: black;
 }
 .titulo{
     background-color: rgb(0, 0, 139);
@@ -245,6 +247,7 @@ h1{
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 }
 .conteiner2  img{
     width: 50%;
@@ -264,6 +267,7 @@ h1{
     margin-left: 5%;
     border-bottom:solid rgb(0, 0, 139) 5px;
     margin-right: 40%;
+    color: black;
 }     
 .conteiner3 img{
     width: 600px;
@@ -281,6 +285,7 @@ h1{
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 } 
 #conteiner4 img{
     width: 35%;
@@ -298,6 +303,7 @@ h1{
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 }
 .conteiner5 img{
     width: 50%;
@@ -316,6 +322,7 @@ h1{
     margin-left: 3%;
     border-bottom:solid rgb(0, 0, 139) 5px;
     margin-right: 50%;
+    color: black;
 }
 .conteiner6 img{
     width: 50%;
@@ -333,6 +340,7 @@ h1{
     margin-left: 5%;
     border-bottom: solid rgb(0, 0, 139) 5px;
     margin-right: 40%;
+    color: black;
 }
 .conteiner7 img{
     width: 74%;
@@ -351,6 +359,7 @@ h1{
     padding-top: 30%;
     margin-left: 20%;
     border-bottom: solid rgb(0, 0, 139) 5px;
+    color: black;
     
 }
 .txt7b{
@@ -360,6 +369,7 @@ h1{
     margin-right:40% ;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 }
 .conteiner8 img{
     width: 50%;
@@ -378,6 +388,7 @@ h1{
     margin-right: 40%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 }
 .txtfinal{
     padding-top: 15%;
