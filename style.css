@@ -819,15 +819,15 @@ div p{
     #fondo{
         background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
         background-position: center;
+        background-size: cover;
         
             }
     .registro{
-        width: 250px;
-        padding: 0px;
+        width: 300px;
         padding-bottom: 8%;
-        margin: 0px;
+        margin: 0px 10px;
         border-radius: 4px;
-        margin-left: 10%;
+        
         
     }
     .registro h2{
@@ -839,6 +839,7 @@ div p{
         font-size: 22px;
         margin-bottom: 20px;
         text-align: center;
+        margin-left: 6%;
     }
 
     .registro p{
@@ -970,7 +971,6 @@ div p{
         
     }
 }
-
 @media only screen and (min-width:768px){
     .dropdown{
         margin: 40%; 
@@ -1089,11 +1089,11 @@ div p{
         
             }
     .registro{
-        width: 650px;
+        width: 650px !important;
         padding: 0px;
         padding-bottom: 8%;
         border-radius: 4px;
-        margin-left: 8%;
+        margin-left: 0%;
         
     }
     .registro h2{
@@ -1105,8 +1105,7 @@ div p{
         font-size: 22px;
         margin-bottom: 20px;
         text-align: center;
-    }
-
+    }   
     .registro p{
         width: 100%;
         text-align: center;
@@ -1123,10 +1122,10 @@ div p{
         text-decoration: underline;
     }
     .btn{
-        margin-left: 46%;
+        margin-left: 50% !important;
         
         
-}
+    }
 }
 @media only screen and (min-width:1024px){ 
     /**********MQ menu de links *****/
