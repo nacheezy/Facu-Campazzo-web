@@ -492,41 +492,35 @@ p{
 
 /*******************************seccion contacto************************/
 
-.div{
-    background-color: white;
-    height: 5px;
-}
+
 #fondo{
-    background-image: url(imagenes/denver/FacuBandeja5.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
     padding-top: 75px;
     padding-bottom: 75px;
     
 }
 .registro{
-    width: 500px;
+    width: 100px;
     background: rgba(36, 48, 60, 0.5);
-    padding: 50px;
+    /* padding: 50px; */
     padding-bottom: 8%;
-    margin: auto;
     border-radius: 4x;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     box-shadow: 7px 13px 37px #000;
+    padding-right: 5% !important;
     
-}
+} 
 .registro h2{
-    font-size: 40px;
+    font-size: 10px;
     margin-bottom: 20px;
     text-align: center;
 }
 .registro h5{
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 .controls{
-    width: 100%;
+    width: 300px;
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
@@ -934,32 +928,31 @@ div p{
     #fondo{
         background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
         background-position: center;
+        background-size: cover;
+        
+        height: 100%;
         
             }
     .registro{
-        width: 350px;
+        width: 84%;
+        height: 100%;
         padding: 0px;
-        padding-bottom: 8%;
         border-radius: 4px;
         margin-left: 8%;
-        
+        margin-top: 1%;
+        padding-left: 7%;
+        padding-top: 0%;
     }
     .registro h2{
         font-size: 50px;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: center !important;
     }
     .registro h5{
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 20px;
         text-align: center;
-    }
-
-    .registro p{
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        line-height: 40px;
+        padding-left: 0%;
     }
     .registro a{
         color: white;
@@ -972,10 +965,12 @@ div p{
     }
     .btn{
         margin-left: 40%;
+        margin-bottom: 5%;
         
         
     }
 }
+
 @media only screen and (min-width:768px){
     .dropdown{
         margin: 40%; 
@@ -1087,51 +1082,51 @@ div p{
         font-size: 35px;
         
     }
-}
-/********MQ contacto **********/
-#fondo{
-    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-    background-position: center;
-    
-        }
-.registro{
-    width: 650px;
-    padding: 0px;
-    padding-bottom: 8%;
-    border-radius: 4px;
-    margin-left: 8%;
-    
-}
-.registro h2{
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.registro h5{
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+    /********MQ contacto **********/
+    #fondo{
+        background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+        background-position: center;
+        
+            }
+    .registro{
+        width: 650px;
+        padding: 0px;
+        padding-bottom: 8%;
+        border-radius: 4px;
+        margin-left: 8%;
+        
+    }
+    .registro h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .registro h5{
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-.registro p{
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    .registro p{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .registro a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .registro a:hover{
+        color:white;
+        text-decoration: underline;
+    }
+    .btn{
+        margin-left: 46%;
+        
+        
 }
-.registro a{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-.registro a:hover{
-    color:white;
-    text-decoration: underline;
-}
-.btn{
-    margin-left: 46%;
-    
-    
 }
 @media only screen and (min-width:1024px){ 
     /**********MQ menu de links *****/
