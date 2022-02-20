@@ -192,24 +192,7 @@ p{
 }
 
 /******************************************************* seccion biografia ******************************************************************/
-.fotoPrincipalBio{
-    background-image: url(imagenes/peñarol/FacuMvp.jpg);
-}
 
-.img1bio { grid-area: img1;
-    background-image: url(imagenes/SelArg/FacuGritando.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin-right: 5px;
-}
 .img1bio:hover{
     border: solid rgb(0, 0, 139) 3px;
 }
@@ -217,21 +200,20 @@ p{
     margin-left: 25px;
     margin-right: 25px;
 }
-.title-bio{
-    color: rgb(0, 50, 139);
+#title-bio{
+    color: rgb(0, 0, 139);
     padding: 5%;
     font-size: 500%;
-    text-decoration: underline;
     position: sticky;
+    text-align: center;
 }
-
 .conteiner-all{
     margin-bottom: 20%;
 }
 .conteiner-all img{
     width: 500px;
     float: left;
-    margin-left: 10%;
+    margin-left: 0%;
     border-radius: 45%;
     margin-right: 10%;
     border:solid rgb(0, 0, 139) 5px;
@@ -239,8 +221,6 @@ p{
 }
 .txt1{
     text-align: right;
-    margin-left: 20%;
-    margin-right: 5%;
     padding-top: 5%;
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
@@ -264,40 +244,33 @@ p{
     padding-right: 0%;
     margin-left: 5%;
     border-bottom:solid rgb(0, 0, 139) 5px;
-    margin-right: 40%;
     color: black;
 }     
 .conteiner3 img{
-    width: 600px;
-    float: left;
-    margin-left: 5%;
+    width: 200px;
+    margin-top: 50px;
     border-radius: 30%;
-    margin-right: 10%;
     border: solid rgb(0, 0, 139) 5px;
 } 
 .txt3{
-    text-align: right;
-    margin-left: 30%;
-    margin-right: 5%;
+    text-align: center;
     padding-top: 15%;
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     color: black;
 } 
 #conteiner4 img{
     width: 35%;
-    float: right;
-    margin-right: 5%;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 15%;
     border: solid rgb(0, 0, 139) 5px;
 }
 .txt4{
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 30%;
+    padding-top: 5%;
     border-bottom:solid rgb(0, 0, 139) 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -306,20 +279,17 @@ p{
 .conteiner5 img{
     width: 50%;
     float: right;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-right: 23%;
     margin-left: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     border: solid rgb(0, 0, 139) 5px;
 }
 .txt5{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: left;
-    padding-top: 35%;
-    margin-left: 3%;
     border-bottom:solid rgb(0, 0, 139) 5px;
-    margin-right: 50%;
     color: black;
 }
 .conteiner6 img{
@@ -388,14 +358,7 @@ p{
     font-size: 20px;
     color: black;
 }
-.txtfinal{
-    padding-top: 15%;
-    margin-left: 75%;
-    margin-bottom: 15px;
-    border-bottom: solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-} 
+ 
 
 
 
@@ -672,7 +635,7 @@ div p{
 
 
 @media only screen and (max-width:320px){
-/******************** MQ INDEX *************************/   
+    /******************** MQ INDEX *************************/   
     .dropdown{
         margin: 25%;
         margin-top: 80%; 
@@ -681,6 +644,7 @@ div p{
         text-align: center;
     }
     .conteiner-fluid{
+        background-image: url(imagenes/imagenPri2.jpg) !important;
         width: 100%; 
         display: flex;
         flex-wrap: wrap;
@@ -727,9 +691,133 @@ div p{
     .titulo{
         padding: 2%;
     }
-}
-/************************** MQ Bio ******************/
+    /************************** MQ Bio ******************/
+    .fotoBio{
+        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    }
+    #title-bio{
+        font-size: 50px;
+    }
+    .conteiner-all img{
+        width: 200px;
+        border-radius: 45%; 
+        margin-left: 15%;
+        margin-bottom: 10%;
+        margin-top: 55px;
+    }
+    .txt1{
+        text-align: center;
+        
+    }
+    .conteiner2  img{
+        width: 100%;
+        float: right;
+        margin-right: 0%
+        
+        
+        
+    }
+    .txt2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15%;
+    } 
+    .conteiner3 img{
+        width: 250px;
+        margin-right: 5%;
+        
+    } 
+    .txt3{
+        text-align: center;
+        padding-top: 15%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    } 
+    #conteiner4 img{
+        width: 70%;
+        margin-top: 10%;
+        border: solid rgb(0, 0, 139) 5px;
+    }
+    .txt4{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    .conteiner5 img{
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 0%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+    .txt5{
+        padding-top: 75%;
+        text-align: center;
 
+    }
+    .conteiner6 img{
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        
+    }
+    .txt6{
+        
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10%;
+        margin-left: 5%;
+            margin-right: 5%;
+    }
+    .conteiner7 img{
+        width: 100%;
+        position: center;
+        left: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+    } 
+    .txt7{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .txt7b{
+        text-align: center;
+        padding-top: 0%;
+        margin-right: 0% ;
+        margin-top: 5%;
+    }
+    .conteiner8 img{
+        width: 100%;
+        float: center;
+        margin-right: 0%;
+        margin-bottom: 10%;
+    }
+    .txt8{
+        text-align: center;
+        padding-top: 25%;
+        
+        margin-right: 0%;
+        
+    }
+    .txtfinal{
+        padding-top: 15%;
+        margin-bottom: 15px;
+        border-bottom: solid rgb(0, 0, 139) 5px;
+        margin-left: 55%;
+        font-size: 20px;
+        text-align: end;
+    }
+}
 @media only screen and (min-width:425px){
     .dropdown{
         margin: 30%; 
@@ -783,6 +871,17 @@ div p{
     .titulo{
         padding: 2%;
     }
+    /****MQ BIOGRAFIA****/
+    .fotoBio{
+        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    }
+    .conteiner-all img{
+        width: 250px;
+    }
+    .conteiner3 img{
+        width: 350px;
+    }
+
 }
 @media only screen and (min-width:768px){
     .dropdown{
@@ -835,6 +934,65 @@ div p{
     }
     .titulo{
         padding: 2%;
+    }
+    /****MQ BIOGRAFIA****/
+    .fotoBio{
+        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    }
+    .conteiner-all img{
+        width: 350px;
+        float: left;
+        margin-left: 0%;
+    }
+    .txt1{
+        margin-left: 2%;
+    }
+    .conteiner3 img{
+        width: 600px;
+        
+        margin-left: 10%;
+    }
+    .menu{
+        width: 100%;
+        height: 500%;
+        display: flex;  
+        
+    }
+    .in{
+        width: 25%;
+        display: flex;
+        height: 500%;
+    }
+    .gale{
+        width: 25%;
+        display: flex;
+        height: 500%;
+        background-color: rgba(36, 48, 60, 0.5);
+    }
+    .bi{
+        width: 25%;
+        display: flex;
+        height: 500%;
+        
+    }
+    .cs{
+        width: 25%;
+        display: flex;
+        height: 500%;
+        
+    }
+    .s{
+        width: 25%;
+        display: flex;
+        height: 500%;
+    }
+    .menu a{
+        padding: 30% 0%;
+    }
+    .menu h4{
+        
+        font-size: 35px;
+        
     }
 }
 @media only screen and (min-width:1024px){ 
@@ -909,5 +1067,231 @@ div p{
     }
     .carousel{
         margin-bottom: 50px;
+    }
+    /****************seccion Biografia********************/
+    .fotoBio{
+        background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    }
+    .img1bio:hover{
+        border: solid rgb(0, 0, 139) 3px;
+    }
+    .mainbio{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #title-bio{
+        color: rgb(0, 0, 139);
+        padding: 5%;
+        font-size: 500%;
+        position: sticky;
+        text-align: center;
+    }
+    .conteiner-all{
+        margin-bottom: 20%;
+    }
+    .conteiner-all img{
+        width: 500px;
+        float: left;
+        margin-left: 10%;
+        border-radius: 45%;
+        margin-right: 10%;
+        border:solid rgb(0, 0, 139) 5px;
+        
+    }
+    .txt1{
+        text-align: right;
+        margin-left: 20%;
+        margin-right: 5%;
+        padding-top: 5%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    .conteiner2  img{
+        width: 50%;
+        float: right;
+        margin-right: 5%;
+        border: solid #00008b 5px;
+        margin-left: 3%;
+        margin-bottom: 10%;
+        
+    }
+    .txt2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 15%;
+        padding-right: 0%;
+        margin-left: 5%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        margin-right: 40%;
+        color: black;
+    }     
+    .conteiner3 img{
+        width: 600px;
+        float: left;
+        margin-left: 5%;
+        border-radius: 30%;
+        margin-right: 10%;
+        border: solid rgb(0, 0, 139) 5px;
+    } 
+    .txt3{
+        text-align: right;
+        margin-left: 30%;
+        margin-right: 5%;
+        padding-top: 15%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    } 
+    #conteiner4 img{
+        width: 35%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 10%;
+        margin-left: 5%;
+        border: solid rgb(0, 0, 139) 5px;
+    }
+    .txt4{
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 30%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    .conteiner5 img{
+        width: 50%;
+        float: right;
+        margin-top: 5%;
+        margin-right: 23%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        border: solid rgb(0, 0, 139) 5px;
+    }
+    .txt5{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 35%;
+        margin-left: 3%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        margin-right: 50%;
+        color: black;
+    }
+    .conteiner6 img{
+        width: 50%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 5%;
+        border: solid rgb(0, 0, 139) 5px;
+        margin-left: 3%;
+    }
+    .txt6{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 10%;
+        margin-left: 5%;
+        border-bottom: solid rgb(0, 0, 139) 5px;
+        margin-right: 40%;
+        color: black;
+    }
+    .conteiner7 img{
+        width: 74%;
+        position: relative;
+        left: 10%;
+        margin-top: 3%;
+        margin-right: 23%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        border: solid rgb(0, 0, 139) 5px;
+    } 
+    .txt7{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: top;
+        padding-top: 30%;
+        margin-left: 20%;
+        border-bottom: solid rgb(0, 0, 139) 5px;
+        color: black;
+        
+    }
+    .txt7b{
+        text-align:end;
+        padding-top: 0%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        margin-right:40% ;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    .conteiner8 img{
+        width: 50%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 5%;
+        border: solid rgb(0, 0, 139) 5px;
+        margin-left: 3%;
+        margin-bottom: 20%;
+    }
+    .txt8{
+        text-align: left;
+        padding-top: 25%;
+        margin-left: 5%;
+        border-bottom:solid rgb(0, 0, 139) 5px;
+        margin-right: 40%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    .txtfinal{
+        padding-top: 15%;
+        margin-left: 75%;
+        margin-bottom: 15px;
+        border-bottom: solid rgb(0, 0, 139) 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+    } 
+    .menu{
+        width: 100%;
+        height: 500%;
+        display: flex;  
+        
+    }
+    .in{
+        width: 100%;
+        display: flex;
+        height: 500%;
+    }
+    .gale{
+        width: 100%;
+        display: flex;
+        height: 500%;
+        background-color: rgba(36, 48, 60, 0.5);
+    }
+    .bi{
+        width: 100%;
+        display: flex;
+        height: 500%;
+        
+    }
+    .cs{
+        width: 100%;
+        display: flex;
+        height: 500%;
+        
+    }
+    .s{
+        width: 100%;
+        display: flex;
+        height: 500%;
+    }
+    .menu a{
+        padding: 30% 0%;
     }
 } 
