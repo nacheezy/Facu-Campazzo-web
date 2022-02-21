@@ -5,113 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facu Campazzo Web</title>
-
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+</head> 
 <body>
-    <!-- foto del principal del inicio -->
-    <header class="conteiner-fluid fotoPrincipalCs">   
-        <nav class="navbar navbar-expand">
-            <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle" id="darkbutton" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagenes/FC7 logo.png" width="130" height="100" alt=""></button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a href="index.html" class="dropdown-item">inicio</a></li>
-                    <li><a href="biografia.html" class="dropdown-item">Biografía</a></li>
-                    <li><a href="galeria.html" class="dropdown-item">Galeria</a></li>
-                    <li><a href="contacto.html" class="dropdown-item">Sorteo</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="fotoCamisetas"> </div> 
+    
+    <!-- links hacia otras secciones -->
+    <div class="menu">
+        <div class="in">
+            <a href="index.html">
+                <h4>INICIO</h4>
+            </a>
+        </div>        
+        <div class="bi">
+            <a href="biografia.html">
+                <h4>BIOGRAFIA</h4>
+            </a>
+        </div>
+        <div class="gale">
+            <a href="camisetas.html">
+                <h4>GALERIA</h4>
+            </a>
+        </div>
+        <div class="s">
+            <a href="contacto.html">
+                <h4>SORTEO</h4>
+            </a>
+        </div>
+    </div>
     <div class="banner"></div>
-    <main>
-        <!-- titulo -->
-        <div class="titutloCamisetas">
+    <main id="separacionCs">
+        <div id="tituloCamisetas">
             <p>A lo largo de su carrera, Facu vistió varias camisetas en su etapa profesional. A continuación veras detallada cada una de ellas.<strong> Queres comprar la camiseta?</strong> Hace click sobre la foto y te enviara a la tienda oficial.</p>
         </div>
-        <!-- cartas -->
         <section>
             <div class="container-camisetas">
                 <div class="card">
                     <img src="imagenes/peñarol/debutFacu.jpg" alt="">
                     <h4>Peñarol MDP</h4>
                     <p>Temporada 08/09</p>
-                    <button type="button" class="btn btn-danger button"><a href="https://www.asmundodeporte.com.ar/productos/camiseta-penarol-facu-campazzo-retro-2011-as/">Comprar</a></button>
+                    <button type="button" id="button"><a href="https://www.asmundodeporte.com.ar/productos/camiseta-penarol-facu-campazzo-retro-2011-as/">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/realMadrid/FacuGritando2.jpg" alt="">
                     <h4>Real Madrid</h4>
                     <p>Temporada 14/15</p>
-                    <button type="button" class="btn btn-danger button"><a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
+                    <button type="button" id="button""><a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/murcia/FacuFestejo.jpg" alt="facu">
                     <h4>Ucam Murcia</h4>
                     <p>Temporada 15/16</p>
-                    <button type="button" class="btn btn-danger button"><a href="https://store.ucam.edu/products/camiseta-juego-ucam-cb-21-22-rojo">Comprar</a></button>
+                    <button type="button" id="button"><a href="https://store.ucam.edu/products/camiseta-juego-ucam-cb-21-22-rojo">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/realMadrid/FacuCamisteAzul.jpg" alt="">
                     <h4>Real Madrid</h4>
                     <p>Temporada 17/18</p>
-                    <button type="button" class="btn btn-danger button"> <a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
+                    <button type="button" id="button"> <a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/denver/FacuCamisetaAzul.jpg" target="_blank">
                     <h4>Denver Nuggets</h4>
                     <p>Temporada 20/21</p>
-                    <button type="button" class="btn btn-danger button"><a href="https://store.nba.com/denver-nuggets/mens-denver-nuggets-nike-white-2020/21-swingman-custom-jersey-association-edition/t-92695126+p-81747482044+z-7-1234666093?_ref=p-DLP:m-GRID:i-r6c2:po-20">Comprar</a></button>
+                    <button type="button" id="button"><a href="https://store.nba.com/denver-nuggets/mens-denver-nuggets-nike-white-2020/21-swingman-custom-jersey-association-edition/t-92695126+p-81747482044+z-7-1234666093?_ref=p-DLP:m-GRID:i-r6c2:po-20">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/SelArg/FacuFestejadndo.jpg" target="_blank">
                     <h4>Seleccion Argentina</h4>
                     <p>Temporada 20/21</p>
-                    <button type="button" class="btn btn-danger button"><a href="https://articulo.mercadolibre.com.ar/MLA-1119045111-camiseta-jordan-seleccion-argentina-campazzo-original-_JM?searchVariation=174086861128#searchVariation=174086861128&position=51&search_layout=stack&type=item&tracking_id=e278f8ba-47c1-43f1-8e7b-fe7209ab02dd">Comprar</a></button>
+                    <button type="button" id="button"><a href="https://articulo.mercadolibre.com.ar/MLA-1119045111-camiseta-jordan-seleccion-argentina-campazzo-original-_JM?searchVariation=174086861128#searchVariation=174086861128&position=51&search_layout=stack&type=item&tracking_id=e278f8ba-47c1-43f1-8e7b-fe7209ab02dd">Comprar</a></button>
                 </div>
             </div>
         </section>
-                <!-- links hacia otras secciones -->
-        <section class="menu">
-            <div class="in">
-                <a href="index.html">
-                    <h4>INICIO</h4>
-                </a>
-            </div>        
-            <div class="bi">
-                <a href="biografia.html">
-                    <h4>BIOGRAFIA</h4>
-                </a>
-            </div>
-            <div class="cs">
-                <a href="camisetas.html">
-                    <h4>CAMISETAS</h4>
-                </a>
-            </div>
-            <div class="s">
-                <a href="contacto.html">
-                    <h4>SORTEO</h4>
-                </a>
-            </div>
-        </section>
-            <div class="separacion"></div>
+    </main>
+    <div class="separacion"></div>
+    <div class="separacion"></div>
                 <!-- footer inicio -->
-                <footer class="box">  
-                    <ul>
-                        <li><a href="https://www.facebook.com/Facucampazzo-116420396402617" target="_blank"><img class="facebook" src="https://icongr.am/fontawesome/facebook-square.svg?size=30&color=ffffff" alt="facebook"></a></li>
-                        <li><a href="https://www.instagram.com/teamfacu/?hl=es" target="_blank"><img class="ig" src="https://icongr.am/fontawesome/instagram.svg?size=30&color=ffffff" alt="instagram"></a></li>
-                        <li><a href="https://twitter.com/teamfacu7?lang=es" target="_blank"><img class="twitter" src="https://icongr.am/fontawesome/twitter.svg?size=30&color=ffffff" alt="twitter"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC7r582FmH46HBiuMRwGgMIw?app=desktop" target="_blank"><img class="youtube" src="https://icongr.am/fontawesome/youtube.svg?size=30&color=ffffff" alt="youtube"></a></li>
-                    </ul>  
-                    <p><small>Copyright - Todos los derechos reservados // Website made by Nacheenzy 🏀</small></p>    
-                </footer>
-            </div>    
-    </main> 
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <footer id="footerCamisetas" class="box">  
+            <ul>
+                <li><a href="https://www.facebook.com/Facucampazzo-116420396402617" target="_blank"><img class="facebook" src="https://icongr.am/fontawesome/facebook-square.svg?size=30&color=ffffff" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/teamfacu/?hl=es" target="_blank"><img class="ig" src="https://icongr.am/fontawesome/instagram.svg?size=30&color=ffffff" alt="instagram"></a></li>
+                <li><a href="https://twitter.com/teamfacu7?lang=es" target="_blank"><img class="twitter" src="https://icongr.am/fontawesome/twitter.svg?size=30&color=ffffff" alt="twitter"></a></li>
+                <li><a href="https://www.youtube.com/channel/UC7r582FmH46HBiuMRwGgMIw?app=desktop" target="_blank"><img class="youtube" src="https://icongr.am/fontawesome/youtube.svg?size=30&color=ffffff" alt="youtube"></a></li>
+            </ul>  
+            <p><small>Copyright - Todos los derechos reservados // Website made by Nacheenzy 🏀</small></p>    
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
@@ -119,7 +101,5 @@
     <script>
         new WOW().init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
