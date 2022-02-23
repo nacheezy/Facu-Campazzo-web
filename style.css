@@ -82,7 +82,7 @@
     width: 100%;
 }
 .menu a:hover{
-    color: red;
+    color: rgb(0, 0, 139);
 }
 .menu h4{
     text-align: center;
@@ -113,8 +113,39 @@
     transition: all 0.5s;
 }
 
+/**************** animacion *****************/
 
+.contenedor-animacion{
+    /* background-image: url(imagenes/Basket-ball.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3% ;
+    height: 150px;
+    width: 100%;
+    
+}
+#pelota{
+    width: 75px;
+    position: fixed;
+    top: 480px;
+    left: 1250px;
+    animation: pelota 7s both;
+}
 
+@keyframes pelota{
+    0%{
+        transform: translateY(-100px);
+    }
+    30%{
+        transform: translateY(05px) rotate(5deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: translateY(10px) rotate(-15deg);
+    }
+}
 
 
 
@@ -141,7 +172,7 @@
     
 }
 .dropdown{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 25%;
     margin-top: 15%;   
 }
@@ -149,7 +180,18 @@
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    
 }
+.dropdown-menu{
+    margin-left: 10%;
+} 
+/* .navbar-expand{
+    margin-left: 10%;
+    padding-left: 10%;
+}
+.navbar{
+    padding-left: 10% !important;
+} */
 .p1, .p2, .p3{
     text-align: right;
     font-size: 300%;
@@ -1888,7 +1930,7 @@ p{
     }
     
     #footerCamisetas{
-        margin-top: 30rem;
+        margin-top: 5rem;
     }
     .container-camisetas a{
         font-weight: 500;
