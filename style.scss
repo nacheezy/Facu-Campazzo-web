@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Slab:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+//var colors
+
+$color1: rgb(0, 0, 139);
+$color2: rgb(12, 12, 226);
+
+//var fonts
+$font1:'Montserrat', sans-serif;
+$font2:'Roboto Slab', serif;
+
 /***********************************menu links*********************************/
 .menu{
     width: 100% ;
@@ -18,7 +28,8 @@
         text-align: center;
         align-items: center;
         align-content: center;
-        width: 100%;
+        width: 800%;
+        
     }
     a:hover{
         color: rgb(83, 174, 204);
@@ -28,7 +39,7 @@
         align-items: center;
         text-shadow: 5px 5px 3px black;
         font-size: 50px;
-        
+        font-family: $font1;
     }
 }
 .in{
@@ -103,7 +114,7 @@
     text-align: center;
     :hover{
         transform: scale(1.1);
-        transition: all 0.5s;
+        transition: all 0.1s;
     }
 }
 /**************** animacion *****************/
@@ -142,7 +153,7 @@
 
 /*************************index***************************************/
 .banner{
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     width: 100%;
     height: 50px;
 }
@@ -173,7 +184,7 @@
     a{
         width: 100%;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         
     }
 } 
@@ -192,7 +203,7 @@
     margin-right: 5%;
     padding-top: 10%;
     color:black;
-    
+    font-family: $font1; 
 }
 .jumbotron{
     background-color: whitesmoke;
@@ -201,23 +212,24 @@
     h1{
         font-size: 60px;
         text-decoration: none;
-        font-family: sans-serif;
+        font-family: $font1;
         text-align: center;
-        color: #00008b;
+        color: $color1;
     }
     p{
         text-align: center !important; 
         padding-bottom: 70px;
-        border-top: #00008b solid 3px;
+        border-top: $color1 solid 3px;
         margin: 0px 350px;
         padding-top: 50px;
         color: black !important;
     }
 }
 .titulo{
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     text-align: center;
     color: white;
+    font-family: $font2;
 }
 .carousel{
     margin-bottom: 50px;
@@ -246,19 +258,21 @@ li{
 p{
     color: white;
     text-align: center;
+    font-family: $font2;
 }
 
-/*********************** seccion biografia ******************************************************/
+
+/*********************** seccion biografia**********************/
 
 .img1bio:hover{
-    border: solid rgb(0, 0, 139) 3px;
+    border: solid $color1 3px;
 }
 .mainbio{
     margin-left: 25px;
     margin-right: 25px;
 }
 #title-bio{
-    color: rgb(0, 0, 139);
+    color: $color1;
     padding: 5%;
     font-size: 500%;
     position: sticky;
@@ -272,15 +286,15 @@ p{
         margin-left: 0%;
         border-radius: 45%;
         margin-right: 10%;
-        border:solid rgb(0, 0, 139) 5px;
+        border:solid $color1 5px;
         
     }
 }
 .txt1{
     text-align: right;
     padding-top: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
+    border-bottom:solid $color1 5px;
+    font-family: $font1;
     font-size: 20px;
     color: black;
 }
@@ -288,32 +302,32 @@ p{
     width: 50%;
     float: right;
     margin-right: 5%;
-    border: solid #00008b 5px;
+    border: solid $color1 5px;
     margin-left: 3%;
     margin-bottom: 10%;
     
 }
 .txt2{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     text-align: left;
     padding-top: 15%;
     padding-right: 0%;
     margin-left: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom:solid $color1 5px;
     color: black;
 }     
 .conteiner3 img{
     width: 200px;
     margin-top: 50px;
     border-radius: 30%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
 } 
 .txt3{
     text-align: center;
     padding-top: 15%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
+    border-bottom:solid $color1 5px;
+    font-family: $font1;
     font-size: 10px;
     color: black;
 } 
@@ -321,15 +335,15 @@ p{
     width: 35%;
     margin-top: 10%;
     margin-left: 15%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
 }
 .txt4{
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
+    border-bottom:solid $color1 5px;
+    font-family: $font1;
     font-size: 20px;
     color: black;
 }
@@ -340,13 +354,13 @@ p{
     margin-right: 23%;
     margin-left: 2%;
     margin-bottom: 5%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
 }
 .txt5{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     text-align: left;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom:solid $color1 5px;
     color: black;
 }
 .conteiner6 img{
@@ -354,16 +368,16 @@ p{
     float: right;
     margin-right: 5%;
     margin-top: 5%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
     margin-left: 3%;
 }
 .txt6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     text-align: left;
     padding-top: 10%;
     margin-left: 5%;
-    border-bottom: solid rgb(0, 0, 139) 5px;
+    border-bottom: solid $color1 5px;
     margin-right: 40%;
     color: black;
 }
@@ -375,24 +389,24 @@ p{
     margin-right: 23%;
     margin-left: 2%;
     margin-bottom: 2%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
 } 
 .txt7{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     text-align: top;
     padding-top: 30%;
     margin-left: 20%;
-    border-bottom: solid rgb(0, 0, 139) 5px;
+    border-bottom: solid $color1 5px;
     color: black;
     
 }
 .txt7b{
     text-align:end;
     padding-top: 0%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom:solid $color1 5px;
     margin-right:40% ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     color: black;
 }
@@ -401,7 +415,7 @@ p{
     float: right;
     margin-right: 5%;
     margin-top: 5%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid $color1 5px;
     margin-left: 3%;
     margin-bottom: 20%;
 }
@@ -409,9 +423,9 @@ p{
     text-align: left;
     padding-top: 25%;
     margin-left: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom:solid $color1 5px;
     margin-right: 40%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     font-size: 20px;
     color: black;
 }
@@ -424,7 +438,7 @@ p{
 
 .item{
     
-    background-color: red;
+    background-color: $color2;
     border: 2px solid white;
     :hover{
         transform: scale(1.02);
@@ -434,7 +448,7 @@ p{
 
 .galeria{
     width: 100%;
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     display: grid;
     gap: 10px;
     padding: 20px;
@@ -443,7 +457,7 @@ p{
     display: flex;
     margin: 5% 0% 1% 5%;
     padding: 3%;
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
     box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
     
@@ -453,7 +467,7 @@ p{
     justify-content: flex-end;
     margin: 2% 5% 2% 0% ;
     padding: 3%;
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
     box-shadow: 10px 10px 0  rgba(31, 103, 235, 0.7);
 }
@@ -461,7 +475,7 @@ p{
     display: flex;
     margin: 5% 0% 1% 5%;
     padding: 3%;
-    background-color: rgb(0, 0, 139);
+    background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
     box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
 }
@@ -482,7 +496,7 @@ p{
     /* padding: 50px; */
     padding-bottom: 8%;
     border-radius: 4x;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: $font1;
     color: white;
     box-shadow: 7px 13px 37px #000;
     padding-right: 5% !important;
@@ -519,22 +533,21 @@ p{
         font-size: 16px;
     }
 } 
-
 .controls{
     width: 300px;
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid $color2;
+    font-family: $font2;
     font-size: 18px;
     color: blanchedalmond;
 }
 .fcontacto{
     width: 100%;
     height: 300px;
-    background-image: linear-gradient(rgb(0, 0, 139),black);
+    background-image: linear-gradient($color1,black);
     margin-top: 2%;
     border-top: whitesmoke solid;
 } 
@@ -559,7 +572,7 @@ p{
 }
 
 #tituloCamisetas{
-    border: 3px rgba(0, 0, 139) solid;
+    border: 3px $color1 solid;
     color: black !important;
     text-align: center;
     height: 100px;
@@ -568,6 +581,7 @@ p{
     padding: 10px 5px;
     p{
         color: black;
+        font-family: $font1;
     }
 }
 
@@ -586,7 +600,7 @@ p{
         text-align: center;
         transition: all 0.25s;
         margin: 10px;
-        background-color: rgb(12, 12, 226);
+        background-color: $color2;
         :hover{
             transform:  translateY(-15px);
             box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
@@ -598,6 +612,7 @@ p{
         margin-top: 5px; 
         margin-bottom: 5px;
         text-shadow: 1px 1px 2px white;
+        font-family: $font2;
         
     }
     p{
@@ -672,6 +687,7 @@ p{
         margin: 50px 5px;
         background-color: rgba(128, 128, 128, 0.5);
         color: white;
+        font-family: $font1;
         
     }
     .jumbotron{
@@ -679,9 +695,9 @@ p{
         h1{
             font-size: 40px;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font1;
             text-align: center;
-            color:#00008b
+            color:$color1;
         }
         p{
             margin: 0px 30px;
@@ -712,7 +728,7 @@ p{
     }
     .txt1{
         text-align: center;
-        
+
     }
     .conteiner2  img{
         width: 100%;
@@ -720,7 +736,7 @@ p{
         margin-right: 0%; 
     }
     .txt2{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         text-align: center;
         padding-top: 15%;
@@ -733,23 +749,23 @@ p{
     .txt3{
         text-align: center;
         padding-top: 15%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom:solid $color1 5px;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     } 
     #conteiner4 img{
         width: 70%;
         margin-top: 10%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
     }
     .txt4{
         text-align: center;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom:solid $color1 5px;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     }
@@ -810,7 +826,7 @@ p{
     .txtfinal{
         padding-top: 15%;
         margin-bottom: 15px;
-        border-bottom: solid rgb(0, 0, 139) 5px;
+        border-bottom: solid $color1 5px;
         margin-left: 55%;
         font-size: 20px;
         text-align: end;
@@ -933,7 +949,7 @@ p{
         
     }
     #tituloCamisetas{
-        border: 3px rgba(0, 0, 139) solid;
+        border: 3px $color1 solid;
         color: black !important;
         text-align: center;
         height: 280px;
@@ -973,7 +989,6 @@ p{
     .p1, .p2, .p3{
         margin-left: 3%;
         margin-right: 3%;
-        
         display: flex;
         flex-wrap: wrap;
         max-width: fit-content;
@@ -989,9 +1004,9 @@ p{
         h1{
             font-size: 40px;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font1;
             text-align: center;
-            color:#00008b
+            color:$color1;
         }
         p{
             margin: 0px 30px;
@@ -1078,10 +1093,9 @@ p{
         background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
         background-position: center;
         background-size: cover;
-        
         height: 100%;
         
-            }
+    }
     .registro{
         width: 84%;
         height: 100%;
@@ -1183,9 +1197,9 @@ p{
         h1{
             font-size: 40px;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font1;
             text-align: center;
-            color:#00008b
+            color:$color1;
         }
         p{
             margin: 0px 30px;
@@ -1211,7 +1225,6 @@ p{
     }
     .conteiner3 img{
         width: 600px;
-        
         margin-left: 10%;
     }
     .menu{
@@ -1223,7 +1236,6 @@ p{
         }
         h4{
             font-size: 35px;
-            
         }
     }
     .in{
@@ -1235,7 +1247,7 @@ p{
         width: 25%;
         display: flex;
         height: 500%;
-        background-color: rgba(36, 48, 60, 0.5);
+        
     }
     .bi{
         width: 25%;
@@ -1429,7 +1441,7 @@ p{
         width: 100%;
         display: flex;
         height: 500%;
-        background-color: rgba(36, 48, 60, 0.5);
+        
     }
     .bi{
         width: 100%;
@@ -1482,7 +1494,7 @@ p{
     .dropdown-menu a{
         width: 100%;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
     }
     .p1, .p2, .p3{
         text-align: right;
@@ -1503,9 +1515,9 @@ p{
         h1{
             font-size: 60px;
             text-decoration: none;
-            font-family: sans-serif;
+            font-family: $font1;
             text-align: center;
-            color: #00008b;
+            color: $color1;
         }
         p{
             text-align: center !important; 
@@ -1517,7 +1529,7 @@ p{
         }
     }
     .titulo{
-        background-color: rgb(0, 0, 139);
+        background-color: $color1;
         text-align: center;
         color: white;
         text-align: center;
@@ -1535,14 +1547,14 @@ p{
         height: 600px !important;
     }
     .img1bio:hover{
-        border: solid rgb(0, 0, 139) 3px;
+        border: solid $color1 3px;
     }
     .mainbio{
         margin-left: 25px;
         margin-right: 25px;
     }
     #title-bio{
-        color: rgb(0, 0, 139);
+        color: $color1;
         padding: 5%;
         font-size: 500%;
         position: sticky;
@@ -1556,7 +1568,7 @@ p{
             margin-left: 10%;
             border-radius: 45%;
             margin-right: 10%;
-            border:solid rgb(0, 0, 139) 5px;
+            border:solid $color1 5px;
         }
     }
     .txt1{
@@ -1564,8 +1576,8 @@ p{
         margin-left: 20%;
         margin-right: 5%;
         padding-top: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom:solid $color1 5px;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     }
@@ -1573,19 +1585,19 @@ p{
         width: 50%;
         float: right;
         margin-right: 5%;
-        border: solid #00008b 5px;
+        border: solid $color1 5px;
         margin-left: 3%;
         margin-bottom: 10%;
         
     }
     .txt2{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         text-align: left;
         padding-top: 15%;
         padding-right: 0%;
         margin-left: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
+        border-bottom:solid $color1 5px;
         margin-right: 40%;
         color: black;
     }     
@@ -1595,15 +1607,15 @@ p{
         margin-left: 5%;
         border-radius: 30%;
         margin-right: 10%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
     } 
     .txt3{
         text-align: right;
         margin-left: 30%;
         margin-right: 5%;
         padding-top: 15%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom:solid $color1 5px;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     } 
@@ -1613,15 +1625,15 @@ p{
         margin-right: 5%;
         margin-top: 10%;
         margin-left: 5%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
     }
     .txt4{
         text-align: left;
         margin-left: 5%;
         margin-right: 5%;
         padding-top: 30%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom:solid $color1 5px;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     }
@@ -1632,15 +1644,15 @@ p{
         margin-right: 23%;
         margin-left: 2%;
         margin-bottom: 2%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
     }
     .txt5{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         text-align: left;
         padding-top: 35%;
         margin-left: 3%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
+        border-bottom:solid $color1 5px;
         margin-right: 50%;
         color: black;
     }
@@ -1649,16 +1661,16 @@ p{
         float: right;
         margin-right: 5%;
         margin-top: 5%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
         margin-left: 3%;
     }
     .txt6{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         text-align: left;
         padding-top: 10%;
         margin-left: 5%;
-        border-bottom: solid rgb(0, 0, 139) 5px;
+        border-bottom: solid $color1 5px;
         margin-right: 40%;
         color: black;
     }
@@ -1670,24 +1682,24 @@ p{
         margin-right: 23%;
         margin-left: 2%;
         margin-bottom: 2%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
     } 
     .txt7{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         text-align: top;
         padding-top: 30%;
         margin-left: 20%;
-        border-bottom: solid rgb(0, 0, 139) 5px;
+        border-bottom: solid $color1 5px;
         color: black;
         
     }
     .txt7b{
         text-align:end;
         padding-top: 0%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
+        border-bottom:solid $color1 5px;
         margin-right:40% ;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     }
@@ -1696,7 +1708,7 @@ p{
         float: right;
         margin-right: 5%;
         margin-top: 5%;
-        border: solid rgb(0, 0, 139) 5px;
+        border: solid $color1 5px;
         margin-left: 3%;
         margin-bottom: 20%;
     }
@@ -1704,9 +1716,9 @@ p{
         text-align: left;
         padding-top: 25%;
         margin-left: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
+        border-bottom:solid $color1 5px;
         margin-right: 40%;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font1;
         font-size: 20px;
         color: black;
     }
@@ -1714,8 +1726,8 @@ p{
         padding-top: 15%;
         margin-left: 75%;
         margin-bottom: 15px;
-        border-bottom: solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
+        border-bottom: solid $color1 5px;
+        font-family: $font1;
         font-size: 50px;
     } 
     /*********** MQ GALERIA **************************/
@@ -1799,7 +1811,7 @@ p{
         background-position: start;
         background-size: cover;
     }
-    /*********************************MQ CONTACTO *****************************************************/
+    /*********************************MQ CONTACTO *****************************/
     .fotoContacto{
         background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
         background-position-y: 30%;
@@ -1817,8 +1829,8 @@ p{
         padding: 50px;
         padding-bottom: 8%;
         margin: auto;
-        border-radius: 4x;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 4px;
+        font-family: $font1;
         color: white;
         box-shadow: 7px 13px 37px #000;
         h2{
@@ -1832,7 +1844,6 @@ p{
         }
         p{
             width: 100%;
-            height: px;
             text-align: center;
             font-size: 18px;
             line-height: 40px;
@@ -1860,15 +1871,15 @@ p{
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid #1f53c5;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 1px solid $color1;
+        font-family: $font1;
         font-size: 18px;
         color: blanchedalmond;
     }
     .fcontacto{
         width: 100%;
         height: 300px;
-        background-image: linear-gradient(rgb(0, 0, 139),black);
+        background-image: linear-gradient($color1,black);
         margin-top: 2%;
         border-top: whitesmoke solid;
     } 
@@ -1901,5 +1912,5 @@ p{
         margin-left: 20%;
         
     }
-
+    
 } 

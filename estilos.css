@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Slab:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   text-align: center;
   align-items: center;
   align-content: center;
-  width: 100%;
+  width: 800%;
 }
 .menu a:hover {
   color: #53aecc;
@@ -29,6 +29,7 @@
   align-items: center;
   text-shadow: 5px 5px 3px black;
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .in {
@@ -108,7 +109,7 @@
 }
 .s :hover {
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 /**************** animacion *****************/
@@ -197,6 +198,7 @@
   margin-right: 5%;
   padding-top: 10%;
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 .jumbotron {
@@ -207,14 +209,14 @@
 .jumbotron h1 {
   font-size: 60px;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: #00008b;
+  color: darkblue;
 }
 .jumbotron p {
   text-align: center !important;
   padding-bottom: 70px;
-  border-top: #00008b solid 3px;
+  border-top: darkblue solid 3px;
   margin: 0px 350px;
   padding-top: 50px;
   color: black !important;
@@ -224,6 +226,7 @@
   background-color: darkblue;
   text-align: center;
   color: white;
+  font-family: "Roboto Slab", serif;
 }
 
 .carousel {
@@ -255,9 +258,10 @@ li {
 p {
   color: white;
   text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 
-/*********************** seccion biografia ******************************************************/
+/*********************** seccion biografia**********************/
 .img1bio:hover {
   border: solid darkblue 3px;
 }
@@ -300,7 +304,7 @@ p {
   width: 50%;
   float: right;
   margin-right: 5%;
-  border: solid #00008b 5px;
+  border: solid darkblue 5px;
   margin-left: 3%;
   margin-bottom: 10%;
 }
@@ -446,7 +450,7 @@ p {
 }
 
 .item {
-  background-color: red;
+  background-color: #0c0ce2;
   border: 2px solid white;
 }
 .item :hover {
@@ -507,7 +511,7 @@ p {
   /* padding: 50px; */
   padding-bottom: 8%;
   border-radius: 4x;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   box-shadow: 7px 13px 37px #000;
   padding-right: 5% !important;
@@ -551,8 +555,8 @@ p {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 1px solid #0c0ce2;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   color: blanchedalmond;
 }
@@ -598,6 +602,7 @@ p {
 }
 #tituloCamisetas p {
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-camisetas {
@@ -628,6 +633,7 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
   text-shadow: 1px 1px 2px white;
+  font-family: "Roboto Slab", serif;
 }
 .container-camisetas p {
   padding: 0 1rem;
@@ -703,6 +709,7 @@ p {
     margin: 50px 5px;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
+    font-family: "Montserrat", sans-serif;
   }
 
   .jumbotron {
@@ -713,7 +720,7 @@ p {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #00008b;
+    color: darkblue;
   }
   .jumbotron p {
     margin: 0px 30px;
@@ -1060,7 +1067,7 @@ p {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #00008b;
+    color: darkblue;
   }
   .jumbotron p {
     margin: 0px 30px;
@@ -1277,7 +1284,7 @@ p {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #00008b;
+    color: darkblue;
   }
   .jumbotron p {
     margin: 0px 30px;
@@ -1332,7 +1339,6 @@ p {
     width: 25%;
     display: flex;
     height: 500%;
-    background-color: rgba(36, 48, 60, 0.5);
   }
 
   .bi {
@@ -1546,7 +1552,6 @@ p {
     width: 100%;
     display: flex;
     height: 500%;
-    background-color: rgba(36, 48, 60, 0.5);
   }
 
   .bi {
@@ -1625,9 +1630,9 @@ p {
   .jumbotron h1 {
     font-size: 60px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #00008b;
+    color: darkblue;
   }
   .jumbotron p {
     text-align: center !important;
@@ -1703,7 +1708,7 @@ p {
     width: 50%;
     float: right;
     margin-right: 5%;
-    border: solid #00008b 5px;
+    border: solid darkblue 5px;
     margin-left: 3%;
     margin-bottom: 10%;
   }
@@ -1951,7 +1956,7 @@ p {
     background-size: cover;
   }
 
-  /*********************************MQ CONTACTO *****************************************************/
+  /*********************************MQ CONTACTO *****************************/
   .fotoContacto {
     background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
     background-position-y: 30%;
@@ -1970,8 +1975,8 @@ p {
     padding: 50px;
     padding-bottom: 8%;
     margin: auto;
-    border-radius: 4x;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
     color: white;
     box-shadow: 7px 13px 37px #000;
   }
@@ -1986,7 +1991,6 @@ p {
   }
   .registro p {
     width: 100%;
-    height: px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
@@ -2014,8 +2018,8 @@ p {
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border: 1px solid darkblue;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: blanchedalmond;
   }

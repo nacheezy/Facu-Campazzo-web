@@ -1,190 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Slab:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 /***********************************menu links*********************************/
-.menu{
-    width: 100% ;
-    display: grid;
-    padding: 10px;
-    
+.menu {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  padding: 10px;
 }
-.in{
-    background-image: url(imagenes/SelArg/FacuGritando.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  /* padding: 2%; */
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 800%;
 }
-.gale{
-    background-image: url(imagenes/murcia/FacuPase.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
+
+.menu a:hover {
+  color: #53aecc;
 }
-.bi{
-    background-image: url(imagenes/peñarol/FacuMvp.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-   
+
+.menu h4 {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 5px 5px 3px black;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
 }
-.cs{
-    background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+
+.in {
+  background-image: url(imagenes/SelArg/FacuGritando.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
-.s{
-    background-image: url(imagenes/denver/FacuBandeja4.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-    
+
+.in :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
-.menu a{
-    text-decoration: none;
-    color: white;
-    /* padding: 2%; */
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
+
+.gale {
+  background-image: url(imagenes/murcia/FacuPase.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
-.menu a:hover{
-    color: rgb(0, 0, 139);
+
+.gale :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
-.menu h4{
-    text-align: center;
-    align-items: center;
-    text-shadow: 5px 5px 3px black;
-    font-size: 50px;
-    
+
+.bi {
+  background-image: url(imagenes/peñarol/FacuMvp.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
-.in:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
-}   
-.gale:hover{
-    transform: scale(1.2);
-    transition: all 1s;
-    
+
+.bi :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
-.bi:hover{
-    transform: scale(1.2);
-    transition: all 1s;
+
+.cs {
+  background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
-.cs:hover{
-    transform: scale(1.2);
-    transition: all 1s;
+
+.cs :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
-.s:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
+
+.s {
+  background-image: url(imagenes/denver/FacuBandeja4.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.s :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 /**************** animacion *****************/
-
-.contenedor-animacion{
-    /* background-image: url(imagenes/Basket-ball.png); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 3% ;
-    height: 150px;
-    width: 100%;
-    
-}
-#pelota{
-    width: 75px;
-    position: fixed;
-    top: 480px;
-    left: 1250px;
-    animation: pelota 7s both;
+.contenedor-animacion {
+  /* background-image: url(imagenes/Basket-ball.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3%;
+  height: 150px;
+  width: 100%;
 }
 
-@keyframes pelota{
-    0%{
-        transform: translateY(-100px);
-    }
-    30%{
-        transform: translateY(05px) rotate(5deg);
-    }
-    50%{
-        transform: rotate(15deg);
-    }
-    100%{
-        transform: translateY(10px) rotate(-15deg);
-    }
+#pelota {
+  width: 75px;
+  position: fixed;
+  top: 480px;
+  left: 1250px;
+  -webkit-animation: pelota 7s both;
+          animation: pelota 7s both;
 }
 
+@-webkit-keyframes pelota {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  30% {
+    -webkit-transform: translateY(5px) rotate(5deg);
+            transform: translateY(5px) rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: translateY(10px) rotate(-15deg);
+            transform: translateY(10px) rotate(-15deg);
+  }
+}
 
+@keyframes pelota {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  30% {
+    -webkit-transform: translateY(5px) rotate(5deg);
+            transform: translateY(5px) rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: translateY(10px) rotate(-15deg);
+            transform: translateY(10px) rotate(-15deg);
+  }
+}
 
 /*************************index***************************************/
-.banner{
-    background-color: rgb(0, 0, 139);
-    width: 100%;
-    height: 50px;
+.banner {
+  background-color: darkblue;
+  width: 100%;
+  height: 50px;
 }
-#background{
-    background-image: url(imagenes/facuSentadoConPelota.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-bottom: 300px;
-    background-size: 30%;
-    background-position: 25%;
-    width: 100%;
+
+#background {
+  background-image: url(imagenes/facuSentadoConPelota.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 300px;
+  background-size: 30%;
+  background-position: 25%;
+  width: 100%;
 }
-.conteiner-fluid{
-    background-image: url(imagenes/imagenPri2.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    
+
+.conteiner-fluid {
+  background-image: url(imagenes/imagenPri2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
-.dropdown{
-    margin-left: 10%;
-    margin-bottom: 25%;
-    margin-top: 15%;   
+
+.dropdown {
+  margin-left: 10%;
+  margin-bottom: 25%;
+  margin-top: 15%;
 }
-.dropdown-menu a{
-    width: 100%;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    
+
+.dropdown-menu {
+  margin-left: 10%;
 }
-.dropdown-menu{
-    margin-left: 10%;
-} 
+
+.dropdown-menu a {
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
 /* .navbar-expand{
     margin-left: 10%;
     padding-left: 10%;
@@ -192,193 +271,1648 @@
 .navbar{
     padding-left: 10% !important;
 } */
-.p1, .p2, .p3{
+.p1, .p2, .p3 {
+  text-align: right;
+  font-size: 300%;
+  text-shadow: 5px 5px 8px grey;
+  margin-left: 50%;
+  margin-right: 5%;
+  padding-top: 10%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+  background-color: whitesmoke;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: darkblue;
+}
+
+.jumbotron p {
+  text-align: center !important;
+  padding-bottom: 70px;
+  border-top: darkblue solid 3px;
+  margin: 0px 350px;
+  padding-top: 50px;
+  color: black !important;
+}
+
+.titulo {
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+/*************************** footer****************************************************/
+.box {
+  width: 100%;
+  height: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(black));
+  background-image: linear-gradient(darkblue, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space;
+      -ms-flex-pack: space;
+          justify-content: space;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+/*********************** seccion biografia**********************/
+.img1bio:hover {
+  border: solid darkblue 3px;
+}
+
+.mainbio {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#title-bio {
+  color: darkblue;
+  padding: 5%;
+  font-size: 500%;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+}
+
+.conteiner-all {
+  margin-bottom: 20%;
+}
+
+.conteiner-all img {
+  width: 500px;
+  float: left;
+  margin-left: 0%;
+  border-radius: 45%;
+  margin-right: 10%;
+  border: solid darkblue 5px;
+}
+
+.txt1 {
+  text-align: right;
+  padding-top: 5%;
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.conteiner2 img {
+  width: 50%;
+  float: right;
+  margin-right: 5%;
+  border: solid darkblue 5px;
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+
+.txt2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 15%;
+  padding-right: 0%;
+  margin-left: 5%;
+  border-bottom: solid darkblue 5px;
+  color: black;
+}
+
+.conteiner3 img {
+  width: 200px;
+  margin-top: 50px;
+  border-radius: 30%;
+  border: solid darkblue 5px;
+}
+
+.txt3 {
+  text-align: center;
+  padding-top: 15%;
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  color: black;
+}
+
+#conteiner4 img {
+  width: 35%;
+  margin-top: 10%;
+  margin-left: 15%;
+  border: solid darkblue 5px;
+}
+
+.txt4 {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.conteiner5 img {
+  width: 50%;
+  float: right;
+  margin-top: 15%;
+  margin-right: 23%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border: solid darkblue 5px;
+}
+
+.txt5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  border-bottom: solid darkblue 5px;
+  color: black;
+}
+
+.conteiner6 img {
+  width: 50%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+  border: solid darkblue 5px;
+  margin-left: 3%;
+}
+
+.txt6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 5%;
+  border-bottom: solid darkblue 5px;
+  margin-right: 40%;
+  color: black;
+}
+
+.conteiner7 img {
+  width: 74%;
+  position: relative;
+  left: 10%;
+  margin-top: 3%;
+  margin-right: 23%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border: solid darkblue 5px;
+}
+
+.txt7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: top;
+  padding-top: 30%;
+  margin-left: 20%;
+  border-bottom: solid darkblue 5px;
+  color: black;
+}
+
+.txt7b {
+  text-align: end;
+  padding-top: 0%;
+  border-bottom: solid darkblue 5px;
+  margin-right: 40%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.conteiner8 img {
+  width: 50%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+  border: solid darkblue 5px;
+  margin-left: 3%;
+  margin-bottom: 20%;
+}
+
+.txt8 {
+  text-align: left;
+  padding-top: 25%;
+  margin-left: 5%;
+  border-bottom: solid darkblue 5px;
+  margin-right: 40%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+/*******************************seccion galeria *********************************/
+.fotoPrincipalGale {
+  background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+}
+
+.item {
+  background-color: #0c0ce2;
+  border: 2px solid white;
+}
+
+.item :hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.galeria {
+  width: 100%;
+  background-color: darkblue;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.video1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 0% 1% 5%;
+  padding: 3%;
+  background-color: darkblue;
+  -webkit-box-shadow: 1px 0px 0 #fff;
+          box-shadow: 1px 0px 0 #fff;
+  -webkit-box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+          box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+}
+
+.video2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 2% 5% 2% 0%;
+  padding: 3%;
+  background-color: darkblue;
+  -webkit-box-shadow: 1px 0px 0 #fff;
+          box-shadow: 1px 0px 0 #fff;
+  -webkit-box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+          box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+}
+
+.video3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 0% 1% 5%;
+  padding: 3%;
+  background-color: darkblue;
+  -webkit-box-shadow: 1px 0px 0 #fff;
+          box-shadow: 1px 0px 0 #fff;
+  -webkit-box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+          box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+}
+
+.separacion {
+  background-color: white;
+  height: 75px;
+}
+
+/*******************************seccion contacto************************/
+#fondo {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.registro {
+  width: 100px;
+  background: rgba(36, 48, 60, 0.5);
+  /* padding: 50px; */
+  padding-bottom: 8%;
+  border-radius: 4x;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+  padding-right: 5% !important;
+}
+
+.registro h2 {
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registro h5 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.registro p {
+  width: 100%;
+  height: px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.registro a {
+  color: white;
+  text-decoration: none;
+}
+
+.registro a :hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.registro .botons {
+  width: 100%;
+  background: #1f53c5;
+  padding: 12px;
+  color: white;
+  margin: 16xp 0;
+  font-size: 16px;
+}
+
+.controls {
+  width: 300px;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0c0ce2;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  color: blanchedalmond;
+}
+
+.fcontacto {
+  width: 100%;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(black));
+  background-image: linear-gradient(darkblue, black);
+  margin-top: 2%;
+  border-top: whitesmoke solid;
+}
+
+#psorteo {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.talle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/********************************seccion camisetas********************************/
+.fotoCamisetas {
+  background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+#separacionC {
+  height: 500% !important;
+  margin-bottom: 500px !important;
+}
+
+#tituloCamisetas {
+  border: 3px darkblue solid;
+  color: black !important;
+  text-align: center;
+  height: 100px;
+  font-size: 20px;
+  margin: 3% 5%;
+  padding: 10px 5px;
+}
+
+#tituloCamisetas p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-camisetas {
+  width: 100%;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-camisetas .card {
+  width: 330px;
+  height: 320px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  margin: 10px;
+  background-color: #0c0ce2;
+}
+
+.container-camisetas .card :hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-camisetas h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px white;
+  font-family: "Roboto Slab", serif;
+}
+
+.container-camisetas p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.container-camisetas a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container-camisetas a :hover {
+  color: white;
+}
+
+#button {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+}
+
+#button :hover {
+  background-color: orangered;
+}
+
+@media only screen and (max-width: 320px) {
+  /******************** MQ INDEX *************************/
+  .fotoindex {
+    background-image: url(imagenes/imagenPri2.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .dropdown {
+    margin: 10%;
+    margin-top: 50%;
+  }
+  .dropdown-menu a {
+    text-align: center;
+  }
+  .conteiner-fluid {
+    background-image: url(imagenes/imagenPri2.jpg) !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #background {
+    background-position: 50%;
+    background-size: 75%;
+    width: 100%;
+    font-display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .p1, .p2, .p3 {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px blue;
+    margin: 50px 5px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  .jumbotron {
+    margin-bottom: 0%;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: darkblue;
+  }
+  .jumbotron p {
+    margin: 0px 30px;
+  }
+  .titulo {
+    padding: 2%;
+  }
+  /************************** MQ Bio ******************/
+  .fotoBiografia {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .fotoBio {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+  }
+  #title-bio {
+    font-size: 50px;
+  }
+  .conteiner-all img {
+    width: 200px;
+    border-radius: 45%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-top: 55px;
+  }
+  .txt1 {
+    text-align: center;
+  }
+  .conteiner2 img {
+    width: 100%;
+    float: right;
+    margin-right: 0%;
+  }
+  .txt2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15%;
+  }
+  .conteiner3 img {
+    width: 250px;
+    margin-right: 5%;
+  }
+  .txt3 {
+    text-align: center;
+    padding-top: 15%;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  #conteiner4 img {
+    width: 70%;
+    margin-top: 10%;
+    border: solid darkblue 5px;
+  }
+  .txt4 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  .conteiner5 img {
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+  .txt5 {
+    padding-top: 75%;
+    text-align: center;
+  }
+  .conteiner6 img {
+    width: 100%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .txt6 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .conteiner7 img {
+    width: 100%;
+    position: center;
+    left: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .txt7 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0%;
+  }
+  .txt7b {
+    text-align: center;
+    padding-top: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+  .conteiner8 img {
+    width: 100%;
+    float: center;
+    margin-right: 0%;
+    margin-bottom: 10%;
+  }
+  .txt8 {
+    text-align: center;
+    padding-top: 25%;
+    margin-right: 0%;
+  }
+  .txtfinal {
+    padding-top: 15%;
+    margin-bottom: 15px;
+    border-bottom: solid darkblue 5px;
+    margin-left: 55%;
+    font-size: 20px;
+    text-align: end;
+  }
+  /******************MQ GALERIA *******************************/
+  .fotoGaleria {
+    background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .item {
+    height: 200px;
+  }
+  .item1 {
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item2 {
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    background-image: url(imagenes/murcia/FacuFestejo.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item4 {
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item5 {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item6 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+  }
+  .item7 {
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item8 {
+    background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
+    background-position: start;
+    background-size: cover;
+  }
+  /*************************** MQ CONTACTO **************************/
+  .fotoContacto {
+    background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
+  #fondo {
+    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .registro {
+    width: 300px;
+    padding-bottom: 8%;
+    margin: 0px 10px;
+    border-radius: 4px;
+  }
+  .registro h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .registro h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 6%;
+  }
+  .registro p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .registro a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .registro a :hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .btn {
+    margin-left: 35%;
+  }
+  /****************************** MQ CAMISETAS ******************************/
+  .fotoCamisetas {
+    height: 200px;
+  }
+  #footerCamisetas {
+    margin-top: 95rem;
+  }
+  #button {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20%;
+  }
+  #tituloCamisetas {
+    border: 3px darkblue solid;
+    color: black !important;
+    text-align: center;
+    height: 280px;
+    font-size: 20px;
+    margin: 3% 5%;
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .fotoindex {
+    background-image: url(imagenes/imagenPri2.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
+  .dropdown {
+    margin: 30%;
+    margin-top: 70%;
+  }
+  .dropdown-menu a {
+    text-align: center;
+  }
+  .conteiner-fluid {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #background {
+    background-position: 50%;
+    background-size: 60%;
+    width: 100%;
+    font-display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .p1, .p2, .p3 {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px blue;
+    margin: 50px 5px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+  }
+  .jumbotron {
+    margin-bottom: 0%;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: darkblue;
+  }
+  .jumbotron p {
+    margin: 0px 30px;
+  }
+  .titulo {
+    padding: 2%;
+  }
+  /****MQ BIOGRAFIA****/
+  .fotoBiografia {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
+  .conteiner-all img {
+    width: 250px;
+  }
+  .conteiner3 img {
+    width: 350px;
+  }
+  /****************** MQ GALERIA *****************************/
+  .fotoGaleria {
+    background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
+  .galeria {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .item {
+    height: 300px;
+  }
+  .item1 {
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item2 {
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    background-image: url(imagenes/murcia/FacuFestejo.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item4 {
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item5 {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item6 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+  }
+  .item7 {
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item8 {
+    background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
+    background-position: start;
+    background-size: cover;
+  }
+  /********MQ contacto **********/
+  .fotoContacto {
+    background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+  }
+  #fondo {
+    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  .registro {
+    width: 84%;
+    height: 100%;
+    padding: 0px;
+    border-radius: 4px;
+    margin-left: 8%;
+    margin-top: 1%;
+    padding-left: 7%;
+    padding-top: 0%;
+  }
+  .registro h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+  .registro h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .registro a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .registro a :hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .btn {
+    margin-left: 40%;
+    margin-bottom: 5%;
+  }
+  /******************** MQ CAMISETAS *******************************/
+  .fotoCamisetas {
+    height: 250px;
+  }
+  #footerCamisetas {
+    margin-top: 95rem;
+  }
+  #button {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20%;
+  }
+  #tituloCamisetas {
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fotoindex {
+    background-image: url(imagenes/imagenPri2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600%;
+  }
+  .dropdown {
+    margin: 40%;
+    margin-top: 70%;
+  }
+  .dropdown-menu a {
+    text-align: center;
+  }
+  .conteiner-fluid {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #background {
+    background-position: 50%;
+    background-size: 30%;
+    font-display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .p1, .p2, .p3 {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px blue;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+  }
+  .jumbotron {
+    margin-bottom: 0%;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: darkblue;
+  }
+  .jumbotron p {
+    margin: 0px 30px;
+  }
+  .titulo {
+    padding: 2%;
+  }
+  /****MQ BIOGRAFIA****/
+  .fotoBiografia {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+  .conteiner-all img {
+    width: 350px;
+    float: left;
+    margin-left: 0%;
+  }
+  .txt1 {
+    margin-left: 2%;
+  }
+  .conteiner3 img {
+    width: 600px;
+    margin-left: 10%;
+  }
+  .menu {
+    width: 100%;
+    height: 500%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu a {
+    padding: 30% 0%;
+  }
+  .menu h4 {
+    font-size: 35px;
+  }
+  .in {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .gale {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .bi {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .cs {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .s {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  /*********************MQ galeria *******************/
+  .fotoGaleria {
+    background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+  .galeria {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (200px)[4];
+        grid-template-rows: repeat(4, 200px);
+    min-width: 100px;
+  }
+  .item {
+    height: 200px;
+  }
+  .item1 {
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    background-position: center;
+    background-size: cover;
+  }
+  .item2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    background-image: url(imagenes/murcia/FacuFestejo.jpg);
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-position: center;
+    background-size: cover;
+  }
+  .item4 {
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .item5 {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-position: center;
+    background-size: cover;
+  }
+  .item6 {
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-position: right;
+    background-size: cover;
+  }
+  .item7 {
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    background-position: center;
+    background-size: cover;
+  }
+  .item8 {
+    background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-position: center;
+    background-size: cover;
+  }
+  /********MQ contacto **********/
+  .fotoContacto {
+    background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+  }
+  #fondo {
+    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+    background-position: center;
+  }
+  .registro {
+    width: 650px !important;
+    padding: 5px;
+    padding-bottom: 8%;
+    border-radius: 4px;
+    margin-left: 8%;
+  }
+  .registro h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .registro h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .registro a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .registro a :hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .registro p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .btn {
+    margin-left: 45% !important;
+  }
+  .controls {
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+    margin-left: 20px !important;
+    padding-right: 0%;
+    width: 100%;
+  }
+  .form-check-input {
+    margin-left: 2% !important;
+  }
+  /**************** MQ CAMISETAS*********************/
+  .fotoCamisetas {
+    height: 400px;
+  }
+  #footerCamisetas {
+    margin-top: 30rem;
+  }
+  #button {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20%;
+  }
+  #tituloCamisetas {
+    height: 130px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /**********MQ menu de links *****/
+  .fotoindex {
+    background-image: url(imagenes/imagenPri2.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+  }
+  .menu {
+    width: 100%;
+    height: 500%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu a {
+    padding: 30% 0%;
+  }
+  .in {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .gale {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .bi {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .cs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  .s {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 500%;
+  }
+  /************************* MQ INDEX **************************/
+  .fotoindex {
+    background-image: url(imagenes/imagenPri2.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    height: 700px !important;
+  }
+  #background {
+    background-image: url(imagenes/facuSentadoConPelota.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 500px;
+    background-size: 30%;
+    background-position: 25%;
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner-fluid {
+    background-image: url(imagenes/imagenPri2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .dropdown {
+    margin-left: 20%;
+    margin-bottom: 120%;
+    margin-top: 120%;
+  }
+  .dropdown-menu a {
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .p1, .p2, .p3 {
     text-align: right;
     font-size: 300%;
     text-shadow: 5px 5px 8px grey;
     margin-left: 50%;
     margin-right: 5%;
     padding-top: 10%;
-    color:black;
-    
-    
-}
-.jumbotron{
+    color: #000;
+    background-color: white;
+    margin-top: 0%;
+  }
+  .jumbotron {
     background-color: whitesmoke;
     margin-bottom: 100px;
     padding-top: 20px;
-}
-.jumbotron h1{
+  }
+  .jumbotron h1 {
     font-size: 60px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #00008b;
-}
-.jumbotron p{
-    text-align: center !important; 
+    color: darkblue;
+  }
+  .jumbotron p {
+    text-align: center !important;
     padding-bottom: 70px;
     border-top: #00008b solid 3px;
     margin: 0px 350px;
     padding-top: 50px;
     color: black !important;
-}
-.titulo{
-    background-color: rgb(0, 0, 139);
+  }
+  .titulo {
+    background-color: darkblue;
     text-align: center;
     color: white;
-}
-.carousel{
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+  }
+  .carousel {
     margin-bottom: 50px;
-}
-
-
-
-/*************************** footer****************************************************/
-
-.box{
-    width: 100%;
-    height: 10rem;
-    background-image: linear-gradient(rgb(0, 0, 139),black);
-    display: flex;
-    flex-direction: column;
-    justify-content: space;
-    align-items: center;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-li{
-    list-style: none;
-    margin: 1rem;
-}
-p{
-    color: white;
-    text-align: center;
-}
-
-/*********************** seccion biografia ******************************************************/
-
-.img1bio:hover{
-    border: solid rgb(0, 0, 139) 3px;
-}
-.mainbio{
+  }
+  /****************seccion Biografia********************/
+  .fotoBiografia {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    background-position-y: 35%;
+    background-size: cover;
+    height: 600px !important;
+  }
+  .img1bio:hover {
+    border: solid darkblue 3px;
+  }
+  .mainbio {
     margin-left: 25px;
     margin-right: 25px;
-}
-#title-bio{
-    color: rgb(0, 0, 139);
+  }
+  #title-bio {
+    color: darkblue;
     padding: 5%;
     font-size: 500%;
+    position: -webkit-sticky;
     position: sticky;
     text-align: center;
-}
-.conteiner-all{
+  }
+  .conteiner-all {
     margin-bottom: 20%;
-}
-.conteiner-all img{
+  }
+  .conteiner-all img {
     width: 500px;
     float: left;
-    margin-left: 0%;
+    margin-left: 10%;
     border-radius: 45%;
     margin-right: 10%;
-    border:solid rgb(0, 0, 139) 5px;
-    
-}
-.txt1{
+    border: solid darkblue 5px;
+  }
+  .txt1 {
     text-align: right;
+    margin-left: 20%;
+    margin-right: 5%;
     padding-top: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: black;
-}
-.conteiner2  img{
+  }
+  .conteiner2 img {
     width: 50%;
     float: right;
     margin-right: 5%;
-    border: solid #00008b 5px;
+    border: solid darkblue 5px;
     margin-left: 3%;
     margin-bottom: 10%;
-    
-}
-.txt2{
-    font-family: 'Montserrat', sans-serif;
+  }
+  .txt2 {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: left;
     padding-top: 15%;
     padding-right: 0%;
     margin-left: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom: solid darkblue 5px;
+    margin-right: 40%;
     color: black;
-}     
-.conteiner3 img{
-    width: 200px;
-    margin-top: 50px;
+  }
+  .conteiner3 img {
+    width: 600px;
+    float: left;
+    margin-left: 5%;
     border-radius: 30%;
-    border: solid rgb(0, 0, 139) 5px;
-} 
-.txt3{
-    text-align: center;
+    margin-right: 10%;
+    border: solid darkblue 5px;
+  }
+  .txt3 {
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 5%;
     padding-top: 15%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
     color: black;
-} 
-#conteiner4 img{
+  }
+  #conteiner4 img {
     width: 35%;
+    float: right;
+    margin-right: 5%;
     margin-top: 10%;
-    margin-left: 15%;
-    border: solid rgb(0, 0, 139) 5px;
-}
-.txt4{
+    margin-left: 5%;
+    border: solid darkblue 5px;
+  }
+  .txt4 {
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    font-family: 'Montserrat', sans-serif;
+    padding-top: 30%;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: black;
-}
-.conteiner5 img{
+  }
+  .conteiner5 img {
     width: 50%;
     float: right;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-right: 23%;
     margin-left: 2%;
-    margin-bottom: 5%;
-    border: solid rgb(0, 0, 139) 5px;
-}
-.txt5{
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2%;
+    border: solid darkblue 5px;
+  }
+  .txt5 {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: left;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    padding-top: 35%;
+    margin-left: 3%;
+    border-bottom: solid darkblue 5px;
+    margin-right: 50%;
     color: black;
-}
-.conteiner6 img{
+  }
+  .conteiner6 img {
     width: 50%;
     float: right;
     margin-right: 5%;
     margin-top: 5%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid darkblue 5px;
     margin-left: 3%;
-}
-.txt6{
-    font-family: 'Montserrat', sans-serif;
+  }
+  .txt6 {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: left;
     padding-top: 10%;
     margin-left: 5%;
-    border-bottom: solid rgb(0, 0, 139) 5px;
+    border-bottom: solid darkblue 5px;
     margin-right: 40%;
     color: black;
-}
-.conteiner7 img{
+  }
+  .conteiner7 img {
     width: 74%;
     position: relative;
     left: 10%;
@@ -386,1390 +1920,61 @@ p{
     margin-right: 23%;
     margin-left: 2%;
     margin-bottom: 2%;
-    border: solid rgb(0, 0, 139) 5px;
-} 
-.txt7{
-    font-family: 'Montserrat', sans-serif;
+    border: solid darkblue 5px;
+  }
+  .txt7 {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: top;
     padding-top: 30%;
     margin-left: 20%;
-    border-bottom: solid rgb(0, 0, 139) 5px;
+    border-bottom: solid darkblue 5px;
     color: black;
-    
-}
-.txt7b{
-    text-align:end;
+  }
+  .txt7b {
+    text-align: end;
     padding-top: 0%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
-    margin-right:40% ;
-    font-family: 'Montserrat', sans-serif;
+    border-bottom: solid darkblue 5px;
+    margin-right: 40%;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: black;
-}
-.conteiner8 img{
+  }
+  .conteiner8 img {
     width: 50%;
     float: right;
     margin-right: 5%;
     margin-top: 5%;
-    border: solid rgb(0, 0, 139) 5px;
+    border: solid darkblue 5px;
     margin-left: 3%;
     margin-bottom: 20%;
-}
-.txt8{
+  }
+  .txt8 {
     text-align: left;
     padding-top: 25%;
     margin-left: 5%;
-    border-bottom:solid rgb(0, 0, 139) 5px;
+    border-bottom: solid darkblue 5px;
     margin-right: 40%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: black;
-}
-
-/*******************************seccion galeria *********************************/
-
-.fotoPrincipalGale{
+  }
+  .txtfinal {
+    padding-top: 15%;
+    margin-left: 75%;
+    margin-bottom: 15px;
+    border-bottom: solid darkblue 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+  }
+  /*********** MQ GALERIA **************************/
+  .fotoGaleria {
     background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-}
-
-.item{
-    
-    background-color: red;
-    border: 2px solid white
-}
-.item:hover{
-    transform: scale(1.02);
-    transition: all 1s;
-}
-.galeria{
-    width: 100%;
-    background-color: rgb(0, 0, 139);
-    display: grid;
-    gap: 10px;
-    padding: 20px;
-}
-.item{
-    background-color: red;
-    border: 2px solid white  
-}
-.item:hover{
-    transform: scale(1.02);
-    transition: all 1s;
-}
-
-.video1{
-    display: flex;
-    margin: 5% 0% 1% 5%;
-    padding: 3%;
-    background-color: rgb(0, 0, 139);
-    box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
-    
-}
-.video2{
-    display: flex;
-    justify-content: flex-end;
-    margin: 2% 5% 2% 0% ;
-    padding: 3%;
-    background-color: rgb(0, 0, 139);
-    box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0  rgba(31, 103, 235, 0.7);
-}
-.video3{
-    display: flex;
-    margin: 5% 0% 1% 5%;
-    padding: 3%;
-    background-color: rgb(0, 0, 139);
-    box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
-}
-.separacion{
-    background-color: white;
-    height: 75px;
-}
-
-
-/*******************************seccion contacto************************/
-
-
-#fondo{
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-.registro{
-    width: 100px;
-    background: rgba(36, 48, 60, 0.5);
-    /* padding: 50px; */
-    padding-bottom: 8%;
-    border-radius: 4x;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    padding-right: 5% !important;
-    
-} 
-.registro h2{
-    font-size: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.registro h5{
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-.controls{
-    width: 300px;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    color: blanchedalmond;
-}
-.registro p{
-    width: 100%;
-    height: px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-.registro a{
-    color: white;
-    text-decoration: none;
-}
-.registro a:hover{
-    color:white;
-    text-decoration: underline;
-}
-.registro .botons{
-    width: 100%;
-    background:#1f53c5;
-    padding: 12px;
-    color: white;
-    margin: 16xp 0;
-    font-size: 16px;
-}
-.fcontacto{
-    width: 100%;
-    height: 300px;
-    background-image: linear-gradient(rgb(0, 0, 139),black);
-    margin-top: 2%;
-    border-top: whitesmoke solid;
-} 
-#psorteo{
-    font-size: 15px;
-    padding-top: 10px;
-}
-.talle{
-    display: flex;
-}
-
-/********************************seccion camisetas********************************/
-
-.fotoCamisetas{
-    background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg);
-    background-position: center;
+    background-position-y: 25%;
     background-size: cover;
-    height: 500px;
-}
-#separacionC{
-    height: 500% !important;
-    margin-bottom: 500px !important;
-}
-
-#tituloCamisetas{
-    border: 3px rgba(0, 0, 139) solid;
-    color: black !important;
-    text-align: center;
-    height: 100px;
-    font-size: 20px;
-    margin: 3% 5%;
-    padding: 10px 5px;
-}
-#tituloCamisetas p{
-    color: black;
-}
-.container-camisetas{
-    width: 100%;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.container-camisetas .card{
-    width: 330px;
-    height: 320px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.25s;
-    margin: 10px;
-    background-color: rgb(12, 12, 226);
-}
-.container-camisetas .card:hover{
-    transform:  translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container-camisetas .card img{
-    width: 330px;
-    height: 200px;
-    background-size: cover;   
-}
-.container-camisetas h4{
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 5px; 
-    margin-bottom: 5px;
-    text-shadow: 1px 1px 2px white;
-    
-}
-.container-camisetas p{
-    padding: 0 1rem;
-    font-size: 16px;
-    font-weight: 300;   
-    color: white;
-    margin-bottom: 5px;
-}
-.container-camisetas a{
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-.container-camisetas a:hover{
-    color: white;
-}
-#button{
-    background-color: cornflowerblue; 
-    width: 200px;
-    height: 35px;
-    border-radius: 15px;
-    border: none;
-}
-#button:hover{
-    background-color: orangered;
-}
-
-
-
-
-@media only screen and (max-width:320px){
-    /******************** MQ INDEX *************************/   
-    .fotoindex{
-        background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-    }
-    .dropdown{
-        margin: 10%;
-        margin-top: 50%; 
-    }
-    .dropdown-menu a{
-        text-align: center;
-    }
-    .conteiner-fluid{
-        background-image: url(imagenes/imagenPri2.jpg) !important;
-        width: 100%; 
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        
-    }
-    #background{
-        background-position: 50%;
-        background-size: 75%;
-        width:100%;
-        font-display: flex;
-        flex-direction: column; 
-        
-        
-    }
-    .p1, .p2, .p3{
-        margin-left: 3%;
-        margin-right: 3%;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: fit-content;
-        text-align: center;
-        font-size: 200%;
-        text-shadow: 5px 5px 5px blue;
-        margin: 50px 5px;
-        background-color: rgba(128, 128, 128, 0.5);
-        color: white;
-        
-    }
-    .jumbotron{
-        margin-bottom: 0%;
-    }
-    .jumbotron h1{
-        font-size: 40px;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        color:#00008b
-    }
-    .jumbotron p{
-        margin: 0px 30px;
-    
-    }
-    .titulo{
-        padding: 2%;
-    }
-    /************************** MQ Bio ******************/
-    .fotoBiografia{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-
-    }
-    .fotoBio{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
-    }
-    #title-bio{
-        font-size: 50px;
-    }
-    .conteiner-all img{
-        width: 200px;
-        border-radius: 45%; 
-        margin-left: 15%;
-        margin-bottom: 10%;
-        margin-top: 55px;
-    }
-    .txt1{
-        text-align: center;
-        
-    }
-    .conteiner2  img{
-        width: 100%;
-        float: right;
-        margin-right: 0%; 
-    }
-    .txt2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: center;
-        padding-top: 15%;
-    } 
-    .conteiner3 img{
-        width: 250px;
-        margin-right: 5%;
-        
-    } 
-    .txt3{
-        text-align: center;
-        padding-top: 15%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    } 
-    #conteiner4 img{
-        width: 70%;
-        margin-top: 10%;
-        border: solid rgb(0, 0, 139) 5px;
-    }
-    .txt4{
-        text-align: center;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    .conteiner5 img{
-        width: 100%;
-        margin-top: 5%;
-        margin-right: 0%;
-        margin-left: 2%;
-        margin-bottom: 2%;
-    }
-    .txt5{
-        padding-top: 75%;
-        text-align: center;
-    }
-    .conteiner6 img{
-        width: 100%;
-        margin-right: 0%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        
-    }
-    .txt6{
-        font-size: 20px;
-        text-align: center;
-        padding-top: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .conteiner7 img{
-        width: 100%;
-        position: center;
-        left: 0%;
-        margin-right: 0%;
-        margin-left: 0%;
-    } 
-    .txt7{
-        font-size: 20px;
-        text-align: center;
-        margin-left: 0%;
-    }
-    .txt7b{
-        text-align: center;
-        padding-top: 0%;
-        margin-right: 0% ;
-        margin-top: 5%;
-    }
-    .conteiner8 img{
-        width: 100%;
-        float: center;
-        margin-right: 0%;
-        margin-bottom: 10%;
-    }
-    .txt8{
-        text-align: center;
-        padding-top: 25%;
-        margin-right: 0%;
-    }
-    .txtfinal{
-        padding-top: 15%;
-        margin-bottom: 15px;
-        border-bottom: solid rgb(0, 0, 139) 5px;
-        margin-left: 55%;
-        font-size: 20px;
-        text-align: end;
-    }
-    /******************MQ GALERIA *******************************/
-    .fotoGaleria{
-        background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-    }
-    .item{
-        height: 200px;
-    }
-    .item1{
-        background-image: url(imagenes/denver/FacuBandeja.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item2{
-        background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item3{
-        background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item4{
-        background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item5{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item6{
-        background-position: center;
-        background-size: cover;
-        background-image: url(imagenes/SelArg/TapaAKobe.jpg);
-    }
-    .item7{
-        background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item8{
-        background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-        background-position: start;
-        background-size: cover;
-    }
-    /*************************** MQ CONTACTO **************************/
-    
-    .fotoContacto{
-        background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-    }
-    #fondo{
-        background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-        background-position: center;
-        background-size: cover;
-        
-    }
-    .registro{
-        width: 300px;
-        padding-bottom: 8%;
-        margin: 0px 10px;
-        border-radius: 4px;
-        
-        
-    }
-    .registro h2{
-        font-size: 50px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .registro h5{
-        font-size: 22px;
-        margin-bottom: 20px;
-        text-align: center;
-        margin-left: 6%;
-    }
-    .registro p{
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        line-height: 40px;
-    }
-    .registro a{
-        color: white;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
-    .registro a:hover{
-        color:white;
-        text-decoration: underline;
-    }
-    .btn{
-        margin-left: 35%;
-        
-    }
-    /****************************** MQ CAMISETAS ******************************/
-    
-    .fotoCamisetas{
-        height: 200px;
-    }
-    #footerCamisetas{
-        margin-top: 95rem;
-    }
-    #button{
-        background-color: cornflowerblue; 
-        width: 200px;
-        height: 35px;
-        border-radius: 15px;
-        border: none;
-        margin-left: 20%;
-        
-    }
-    #tituloCamisetas{
-        border: 3px rgba(0, 0, 139) solid;
-        color: black !important;
-        text-align: center;
-        height: 280px;
-        font-size: 20px;
-        margin: 3% 5%;
-        padding: 10px 5px;
-    }
-}
-@media only screen and (min-width:425px){
-    .fotoindex{
-        background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-    }
-    .dropdown{
-        margin: 30%; 
-        margin-top: 70%; 
-    }
-    .dropdown-menu a{
-        text-align: center;
-    }
-    .conteiner-fluid{
-        width: 100%; 
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #background{
-        background-position: 50%;
-        background-size: 60%;
-        width:100%;
-        font-display: flex;
-        flex-direction: column; 
-    }
-    .p1, .p2, .p3{
-        margin-left: 3%;
-        margin-right: 3%;
-        
-        display: flex;
-        flex-wrap: wrap;
-        max-width: fit-content;
-        text-align: center;
-        font-size: 200%;
-        text-shadow: 5px 5px 5px blue;
-        margin: 50px 5px;
-        background-color: rgba(128, 128, 128, 0.5);
-        color: white;
-    }
-    .jumbotron{
-        margin-bottom: 0%;
-    }
-    .jumbotron h1{
-        font-size: 40px;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        color:#00008b
-    }
-    .jumbotron p{
-        margin: 0px 30px;
-    
-    }
-    .titulo{
-        padding: 2%;
-    }
-    /****MQ BIOGRAFIA****/
-    .fotoBiografia{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-    }
-    .conteiner-all img{
-        width: 250px;
-    }
-    .conteiner3 img{
-        width: 350px;
-    }
-    /****************** MQ GALERIA *****************************/
-    .fotoGaleria{
-        background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-    }
-    .galeria{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .item{
-        height: 300px;
-    }
-    .item1{
-        background-image: url(imagenes/denver/FacuBandeja.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item2{
-        background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item3{
-        background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item4{
-        background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item5{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item6{
-        background-position: center;
-        background-size: cover;
-        background-image: url(imagenes/SelArg/TapaAKobe.jpg);
-    }
-    .item7{
-        background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item8{
-        background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-        background-position: start;
-        background-size: cover;
-    }
-    /********MQ contacto **********/
-    .fotoContacto{
-        background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-    }
-    #fondo{
-        background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-        background-position: center;
-        background-size: cover;
-        
-        height: 100%;
-        
-            }
-    .registro{
-        width: 84%;
-        height: 100%;
-        padding: 0px;
-        border-radius: 4px;
-        margin-left: 8%;
-        margin-top: 1%;
-        padding-left: 7%;
-        padding-top: 0%;
-    }
-    .registro h2{
-        font-size: 50px;
-        margin-bottom: 20px;
-        text-align: center !important;
-    }
-    .registro h5{
-        font-size: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-        padding-left: 0%;
-    }
-    .registro a{
-        color: white;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
-    .registro a:hover{
-        color:white;
-        text-decoration: underline;
-    }
-    .btn{
-        margin-left: 40%;
-        margin-bottom: 5%;
-    }
-    /******************** MQ CAMISETAS *******************************/
-    .fotoCamisetas{
-        height: 250px;
-    }
-    
-    #footerCamisetas{
-        margin-top: 95rem;
-    }
-    #button{
-        background-color: cornflowerblue; 
-        width: 200px;
-        height: 35px;
-        border-radius: 15px;
-        border: none;
-        margin-left: 20%;
-        
-    }
-    #tituloCamisetas{
-        height: 220px;
-        
-    }
-}
-@media only screen and (min-width:768px){
-    .fotoindex{
-        background-image: url(imagenes/imagenPri2.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 600%;
-    }
-    .dropdown{
-        margin: 40%; 
-        margin-top: 70%; 
-        
-    }
-    .dropdown-menu a{
-        text-align: center;
-    }
-    .conteiner-fluid{
-        width: 100%; 
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #background{
-        background-position: 50%;
-        background-size: 30%;
-        font-display: flex;
-        flex-direction: column; 
-        
-    }
-    .p1, .p2, .p3{
-        margin-left: 2%;
-        margin-right: 2%;
-        padding: 10px 50px;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: fit-content;
-        text-align: center;
-        font-size: 200%;
-        text-shadow: 5px 5px 5px blue;
-        background-color: rgba(128, 128, 128, 0.5);
-        color: white;
-    }
-    .jumbotron{
-        margin-bottom: 0%;
-    }
-    .jumbotron h1{
-        font-size: 40px;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        color:#00008b
-    }
-    .jumbotron p{
-        margin: 0px 30px;
-    }
-    .titulo{
-        padding: 2%;
-    }
-    /****MQ BIOGRAFIA****/
-    .fotoBiografia{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-
-    }
-    .conteiner-all img{
-        width: 350px;
-        float: left;
-        margin-left: 0%;
-    }
-    .txt1{
-        margin-left: 2%;
-    }
-    .conteiner3 img{
-        width: 600px;
-        
-        margin-left: 10%;
-    }
-    .menu{
-        width: 100%;
-        height: 500%;
-        display: flex;  
-        
-    }
-    .in{
-        width: 25%;
-        display: flex;
-        height: 500%;
-    }
-    .gale{
-        width: 25%;
-        display: flex;
-        height: 500%;
-        background-color: rgba(36, 48, 60, 0.5);
-    }
-    .bi{
-        width: 25%;
-        display: flex;
-        height: 500%;
-        
-    }
-    .cs{
-        width: 25%;
-        display: flex;
-        height: 500%;
-        
-    }
-    .s{
-        width: 25%;
-        display: flex;
-        height: 500%;
-    }
-    .menu a{
-        padding: 30% 0%;
-    }
-    .menu h4{
-        
-        font-size: 35px;
-        
-    }
-    /*********************MQ galeria *******************/
-    .fotoGaleria{
-        background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-    }
-    .galeria{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 200px);
-        min-width: 100px;
-        
-    }
-    .item{
-        height: 200px;
-    }
-    .item1{
-        background-image: url(imagenes/denver/FacuBandeja.jpg);
-        grid-column: 1/2;
-        grid-row: 1/3;
-        background-position: center;
-        background-size: cover;
-    }
-    .item2{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item3{
-        background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        grid-column: 3/5;
-        grid-row: 1/2;
-        background-position: center;
-        background-size: cover;
-    }
-    .item4{
-        background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
-        grid-column: 1/5;
-        grid-row: 2/3;
-    }
-    .item5{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
-    }
-    .item6{
-        background-image: url(imagenes/SelArg/TapaAKobe.jpg);
-        grid-column: 3/5;
-        grid-row: 3/4;
-        background-position: right;
-        background-size: cover;
-    }
-    .item7{
-        background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        grid-column: 1/5 ;
-        grid-row: 4/5;
-        background-position: center;
-        background-size: cover;
-    }
-    .item8{
-        background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-        grid-column: 2/3 ;
-        grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
-    }
-    /********MQ contacto **********/
-    .fotoContacto{
-        background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 500px;
-    }
-    #fondo{
-        background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-        background-position: center;
-        
-        }
-    .registro{
-        width: 650px !important;
-        padding: 5px;
-        padding-bottom: 8%;
-        border-radius: 4px;
-        margin-left: 8%;        
-    }
-    .registro h2{
-        font-size: 50px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .registro h5{
-        font-size: 22px;
-        margin-bottom: 20px;
-        text-align: center;
-    }   
-    .registro p{
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        line-height: 40px;
-    }
-    .registro a{
-        color: white;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
-    .registro a:hover{
-        color:white;
-        text-decoration: underline;
-    }
-    .btn{
-        margin-left: 45% !important; 
-    }
-    .controls{    
-    align-content: center !important;
-    margin-left: 20px !important;
-    padding-right: 0%;
-    width: 100%;
-    }
-    .form-check-input{
-        margin-left: 2% !important;
-        
-    }
-    
-    /**************** MQ CAMISETAS*********************/
-    .fotoCamisetas{
-        height: 400px;
-    }
-    
-    #footerCamisetas{
-        margin-top: 30rem;
-    }
-    #button{
-        background-color: cornflowerblue; 
-        width: 200px;
-        height: 35px;
-        border-radius: 15px;
-        border: none;
-        margin-left: 20%;
-        
-    }
-    #tituloCamisetas{
-        height: 130px;
-        
-    }
-}
-@media only screen and (min-width:1024px){ 
-    /**********MQ menu de links *****/
-    .fotoindex{
-        background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 500px;
-    }
-    .menu{
-        width: 100%;
-        height: 500%;
-        display: flex;  
-        
-    }
-    .in{
-        width: 100%;
-        display: flex;
-        height: 500%;
-    }
-    .gale{
-        width: 100%;
-        display: flex;
-        height: 500%;
-        background-color: rgba(36, 48, 60, 0.5);
-    }
-    .bi{
-        width: 100%;
-        display: flex;
-        height: 500%;
-        
-    }
-    .cs{
-        width: 100%;
-        display: flex;
-        height: 500%;
-        
-    }
-    .s{
-        width: 100%;
-        display: flex;
-        height: 500%;
-    }
-    .menu a{
-        padding: 30% 0%;
-    }
-    /************************* MQ INDEX **************************/ 
-    .fotoindex{
-        background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
-        height: 700px !important;
-
-    }
-    #background{
-        background-image: url(imagenes/facuSentadoConPelota.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding-bottom: 500px;
-        background-size: 30%;
-        background-position: 25%;
-        width: 100%;
-        height: 100%;
-    }
-    .conteiner-fluid{
-        background-image: url(imagenes/imagenPri2.jpg);
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        
-    }
-    .dropdown{
-        margin-left: 20%;
-        margin-bottom: 120%;
-        margin-top: 120%;   
-        
-    }
-    .dropdown-menu a{
-        width: 100%;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .p1, .p2, .p3{
-        text-align: right;
-        font-size: 300%;
-        text-shadow: 5px 5px 8px grey;
-        margin-left: 50%;
-        margin-right: 5%;
-        padding-top: 10%;
-        color:#000;
-        background-color: white;
-        margin-top: 0%;
-        
-    }
-    .jumbotron{
-        background-color: whitesmoke;
-        margin-bottom: 100px;
-        padding-top: 20px;
-    }
-    .jumbotron h1{
-        font-size: 60px;
-        text-decoration: none;
-        font-family: sans-serif;
-        text-align: center;
-        color: #00008b;
-    }
-    .jumbotron p{
-        text-align: center !important; 
-        padding-bottom: 70px;
-        border-top: #00008b solid 3px;
-        margin: 0px 350px;
-        padding-top: 50px;
-        color: black !important;
-    }
-    .titulo{
-        background-color: rgb(0, 0, 139);
-        text-align: center;
-        color: white;
-        text-align: center;
-        padding: 3px;
-        font-size: 20px;
-    }
-    .carousel{
-        margin-bottom: 50px;
-    }
-    /****************seccion Biografia********************/
-    .fotoBiografia{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        background-position-y: 35%;
-        background-size: cover;
-        height: 600px !important;
-    }
-    .img1bio:hover{
-        border: solid rgb(0, 0, 139) 3px;
-    }
-    .mainbio{
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    #title-bio{
-        color: rgb(0, 0, 139);
-        padding: 5%;
-        font-size: 500%;
-        position: sticky;
-        text-align: center;
-    }
-    .conteiner-all{
-        margin-bottom: 20%;
-    }
-    .conteiner-all img{
-        width: 500px;
-        float: left;
-        margin-left: 10%;
-        border-radius: 45%;
-        margin-right: 10%;
-        border:solid rgb(0, 0, 139) 5px;
-        
-    }
-    .txt1{
-        text-align: right;
-        margin-left: 20%;
-        margin-right: 5%;
-        padding-top: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    .conteiner2  img{
-        width: 50%;
-        float: right;
-        margin-right: 5%;
-        border: solid #00008b 5px;
-        margin-left: 3%;
-        margin-bottom: 10%;
-        
-    }
-    .txt2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: left;
-        padding-top: 15%;
-        padding-right: 0%;
-        margin-left: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        margin-right: 40%;
-        color: black;
-    }     
-    .conteiner3 img{
-        width: 600px;
-        float: left;
-        margin-left: 5%;
-        border-radius: 30%;
-        margin-right: 10%;
-        border: solid rgb(0, 0, 139) 5px;
-    } 
-    .txt3{
-        text-align: right;
-        margin-left: 30%;
-        margin-right: 5%;
-        padding-top: 15%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    } 
-    #conteiner4 img{
-        width: 35%;
-        float: right;
-        margin-right: 5%;
-        margin-top: 10%;
-        margin-left: 5%;
-        border: solid rgb(0, 0, 139) 5px;
-    }
-    .txt4{
-        text-align: left;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-top: 30%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    .conteiner5 img{
-        width: 50%;
-        float: right;
-        margin-top: 5%;
-        margin-right: 23%;
-        margin-left: 2%;
-        margin-bottom: 2%;
-        border: solid rgb(0, 0, 139) 5px;
-    }
-    .txt5{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: left;
-        padding-top: 35%;
-        margin-left: 3%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        margin-right: 50%;
-        color: black;
-    }
-    .conteiner6 img{
-        width: 50%;
-        float: right;
-        margin-right: 5%;
-        margin-top: 5%;
-        border: solid rgb(0, 0, 139) 5px;
-        margin-left: 3%;
-    }
-    .txt6{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: left;
-        padding-top: 10%;
-        margin-left: 5%;
-        border-bottom: solid rgb(0, 0, 139) 5px;
-        margin-right: 40%;
-        color: black;
-    }
-    .conteiner7 img{
-        width: 74%;
-        position: relative;
-        left: 10%;
-        margin-top: 3%;
-        margin-right: 23%;
-        margin-left: 2%;
-        margin-bottom: 2%;
-        border: solid rgb(0, 0, 139) 5px;
-    } 
-    .txt7{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: top;
-        padding-top: 30%;
-        margin-left: 20%;
-        border-bottom: solid rgb(0, 0, 139) 5px;
-        color: black;
-        
-    }
-    .txt7b{
-        text-align:end;
-        padding-top: 0%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        margin-right:40% ;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    .conteiner8 img{
-        width: 50%;
-        float: right;
-        margin-right: 5%;
-        margin-top: 5%;
-        border: solid rgb(0, 0, 139) 5px;
-        margin-left: 3%;
-        margin-bottom: 20%;
-    }
-    .txt8{
-        text-align: left;
-        padding-top: 25%;
-        margin-left: 5%;
-        border-bottom:solid rgb(0, 0, 139) 5px;
-        margin-right: 40%;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    .txtfinal{
-        padding-top: 15%;
-        margin-left: 75%;
-        margin-bottom: 15px;
-        border-bottom: solid rgb(0, 0, 139) 5px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-    } 
-    
-
-    /*********** MQ GALERIA **************************/
-    .fotoGaleria{
-        background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position-y: 25%;
-        background-size: cover;
-        height: 500px !important;
-    }
-    /* .fotoMenu{
+    height: 500px !important;
+  }
+  /* .fotoMenu{
         
         background-image: url(imagenes/murcia/FacuPase.jpg);
         background-position: center;
@@ -1777,176 +1982,202 @@ p{
         
     
     } */
-    
-    .galeria{
-        grid-template-columns: repeat(4, 1fr) ;
+  .galeria {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (200px)[4];
         grid-template-rows: repeat(4, 200px);
-    }
-    .item{
-        height: 200px;
-    }
-    .item1{
-        background-image: url(imagenes/denver/FacuBandeja.jpg);
-        grid-column: 1/2;
-        grid-row: 1/3;
-        background-position: center;
-        background-size: cover;
-        
-        
-    }
-    .item2{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
-    }
-    .item3{
-        background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        grid-column: 3/5;
-        grid-row: 1/2;
-        background-position: center;
-        background-size: cover;
-    }
-    .item4{
-        background-image: url(imagenes/realMadrid/banner.jpg);
-        grid-column: 1/5;
-        grid-row: 2/3;
-        background-position: top;
-        background-size: cover;
-    }
-    .item5{
-        background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
-    }
-    .item6{
-        background-image: url(imagenes/SelArg/TapaAKobe.jpg);
-        grid-column: 3/5;
-        grid-row: 3/5;
-        background-position: right;
-        background-size: cover;
-    }
-    .item7{
-        background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        grid-column: 1/5 ;
-        grid-row: 4/5;
-        background-position: center;
-        background-size: cover;
-    }
-    .item8{
-        background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-        grid-column: 2/3 ;
-        grid-row: 3/4;
-        background-position: start;
-        background-size: cover;
-    }
-    /*********************************MQ CONTACTO *****************************************************/
-    .fotoContacto{
-        background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position-y: 30%;
-        background-size: cover;
-        height: 500px;
-
-    }
-    #fondo{
-        background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-        background-position: center;
-    }
-    .registro{
-        width: 565px;
-        background: rgba(36, 48, 60, 0.5);
-        padding: 50px;
-        padding-bottom: 8%;
-        margin: auto;
-        border-radius: 4x;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-        box-shadow: 7px 13px 37px #000;
-        
-    }
-    .registro h2{
-        font-size: 40px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .registro h5{
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-    .controls{
-        width: 95%;
-        background: #24303c;
-        padding: 10px;
-
-        border-radius: 4px;
-        margin-bottom: 16px;
-        border: 1px solid #1f53c5;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        color: blanchedalmond;
-    }
-    .registro p{
-        width: 100%;
-        height: px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 40px;
-    }
-    .registro a{
-        color: white;
-        text-decoration: none;
-    }
-    .registro a:hover{
-        color:white;
-        text-decoration: underline;
-    }
-    .registro .botons{
-        width: 100%;
-        background:#1f53c5;
-        padding: 12px;
-        color: white;
-        margin: 16xp 0;
-        font-size: 16px;
-    }
-    .fcontacto{
-        width: 100%;
-        height: 300px;
-        background-image: linear-gradient(rgb(0, 0, 139),black);
-        margin-top: 2%;
-        border-top: whitesmoke solid;
-    } 
-    #psorteo{
-        font-size: 15px;
-        padding-top: 10px;
-    }
-    /******************************* MQ CAMISETAS ******************************/
-    .fotoCamisetas{
-        background-position-y: 25%;
-        background-size: cover;
-        height: 500px !important;
-    }
-    
-    #footerCamisetas{
-        margin-top: 5rem;
-    }
-    .container-camisetas a{
-        font-weight: 500;
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        
-    }
-    #button{
-        background-color: cornflowerblue; 
-        width: 200px;
-        height: 35px;
-        border-radius: 15px;
-        border: none;
-        margin-left: 20%;
-        
-    }
-
-} 
+  }
+  .item {
+    height: 200px;
+  }
+  .item1 {
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    background-position: center;
+    background-size: cover;
+  }
+  .item2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    background-image: url(imagenes/murcia/FacuFestejo.jpg);
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-position: center;
+    background-size: cover;
+  }
+  .item4 {
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-position: top;
+    background-size: cover;
+  }
+  .item5 {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-position: center;
+    background-size: cover;
+  }
+  .item6 {
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    grid-row: 3/5;
+    background-position: right;
+    background-size: cover;
+  }
+  .item7 {
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    background-position: center;
+    background-size: cover;
+  }
+  .item8 {
+    background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-position: start;
+    background-size: cover;
+  }
+  /*********************************MQ CONTACTO *****************************/
+  .fotoContacto {
+    background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
+    background-position-y: 30%;
+    background-size: cover;
+    height: 500px;
+  }
+  #fondo {
+    background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
+    background-position: center;
+  }
+  .registro {
+    width: 565px;
+    background: rgba(36, 48, 60, 0.5);
+    padding: 50px;
+    padding-bottom: 8%;
+    margin: auto;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    -webkit-box-shadow: 7px 13px 37px #000;
+            box-shadow: 7px 13px 37px #000;
+  }
+  .registro h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .registro h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .registro p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .registro a {
+    color: white;
+    text-decoration: none;
+  }
+  .registro a :hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .registro .botons {
+    width: 100%;
+    background: #1f53c5;
+    padding: 12px;
+    color: white;
+    margin: 16xp 0;
+    font-size: 16px;
+  }
+  .controls {
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid darkblue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: blanchedalmond;
+  }
+  .fcontacto {
+    width: 100%;
+    height: 300px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(darkblue), to(black));
+    background-image: linear-gradient(darkblue, black);
+    margin-top: 2%;
+    border-top: whitesmoke solid;
+  }
+  #psorteo {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  /******************************* MQ CAMISETAS ******************************/
+  .fotoCamisetas {
+    background-position-y: 25%;
+    background-size: cover;
+    height: 500px !important;
+  }
+  #footerCamisetas {
+    margin-top: 5rem;
+  }
+  .container-camisetas a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  #button {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
