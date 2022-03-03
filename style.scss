@@ -135,7 +135,6 @@ $font2:'Roboto Slab', serif;
     left: 1250px;
     animation: pelota 7s both;
 }
-
 @keyframes pelota{
     0%{
         transform: translateY(-100px);
@@ -230,10 +229,60 @@ $font2:'Roboto Slab', serif;
     text-align: center;
     color: white;
     font-family: $font2;
+    margin-top: 50px;
 }
 .carousel{
     margin-bottom: 50px;
 }
+.equipos{
+    color:$color1;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: $font1;
+}
+
+/* mapa */
+$equipos: (
+    equipo1: blue,
+    equipo2: red,
+    equipo3: white,
+    equipo4: darkblue
+);
+
+/*bucle para mapa */
+
+@each $equipo, $camiseta in $equipos {
+    .logo--#{$equipo}{
+        background-color: $color2;
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 50px;
+        line-height: 200px;
+        color: $camiseta;
+        text-transform: uppercase;
+        text-shadow: 0 0 5px black;
+        font-family: $font2;
+    }    
+}
+.peñarol-club, 
+.ucam-club,
+.realMadrid-club,
+.denver-club {
+    border-color:red ;
+}
+
+@each $club in peñarol , ucam , realMadrid , denver {
+    .#{$club}-club {
+    background-image: url("imagenes/club/#{club}.jpg");
+    background-position: center;
+    background-size: cover;   
+    }
+}
+
 
 /*************************** footer****************************************************/
 
@@ -290,13 +339,16 @@ p{
         
     }
 }
-.txt1{
-    text-align: right;
-    padding-top: 5%;
+@mixin text {
     border-bottom:solid $color1 5px;
     font-family: $font1;
-    font-size: 20px;
     color: black;
+}
+.txt1{
+    @include text;
+    text-align: right;
+    padding-top: 5%;
+    font-size: 20px;
 }
 .conteiner2  img{
     width: 50%;
@@ -308,14 +360,12 @@ p{
     
 }
 .txt2{
-    font-family: $font1;
+    @include text;
     font-size: 20px;
     text-align: left;
     padding-top: 15%;
     padding-right: 0%;
     margin-left: 5%;
-    border-bottom:solid $color1 5px;
-    color: black;
 }     
 .conteiner3 img{
     width: 200px;
@@ -324,12 +374,10 @@ p{
     border: solid $color1 5px;
 } 
 .txt3{
+    @include text;
     text-align: center;
     padding-top: 15%;
-    border-bottom:solid $color1 5px;
-    font-family: $font1;
     font-size: 10px;
-    color: black;
 } 
 #conteiner4 img{
     width: 35%;
@@ -338,14 +386,12 @@ p{
     border: solid $color1 5px;
 }
 .txt4{
+    @include text;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
-    border-bottom:solid $color1 5px;
-    font-family: $font1;
+    padding-top: 5%;    
     font-size: 20px;
-    color: black;
 }
 .conteiner5 img{
     width: 50%;
@@ -357,11 +403,9 @@ p{
     border: solid $color1 5px;
 }
 .txt5{
-    font-family: $font1;
+    @include text;
     font-size: 20px;
     text-align: left;
-    border-bottom:solid $color1 5px;
-    color: black;
 }
 .conteiner6 img{
     width: 50%;
@@ -372,15 +416,13 @@ p{
     margin-left: 3%;
 }
 .txt6{
-    font-family: $font1;
+    @include text;
     font-size: 20px;
     text-align: left;
     padding-top: 10%;
     margin-left: 5%;
-    border-bottom: solid $color1 5px;
     margin-right: 40%;
-    color: black;
-}
+}    
 .conteiner7 img{
     width: 74%;
     position: relative;
@@ -392,23 +434,18 @@ p{
     border: solid $color1 5px;
 } 
 .txt7{
-    font-family: $font1;
+    @include text;
     font-size: 20px;
     text-align: top;
     padding-top: 30%;
     margin-left: 20%;
-    border-bottom: solid $color1 5px;
-    color: black;
-    
 }
 .txt7b{
+    @include text;
     text-align:end;
     padding-top: 0%;
-    border-bottom:solid $color1 5px;
     margin-right:40% ;
-    font-family: $font1;
     font-size: 20px;
-    color: black;
 }
 .conteiner8 img{
     width: 50%;
@@ -420,14 +457,13 @@ p{
     margin-bottom: 20%;
 }
 .txt8{
+    @include text;
     text-align: left;
     padding-top: 25%;
     margin-left: 5%;
-    border-bottom:solid $color1 5px;
     margin-right: 40%;
-    font-family: $font1;
     font-size: 20px;
-    color: black;
+    
 }
 
 /*******************************seccion galeria *********************************/

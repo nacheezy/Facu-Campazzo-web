@@ -227,10 +227,109 @@
   text-align: center;
   color: white;
   font-family: "Roboto Slab", serif;
+  margin-top: 50px;
 }
 
 .carousel {
   margin-bottom: 50px;
+}
+
+.equipos {
+  color: darkblue;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* mapa */
+/*bucle para mapa */
+.logo--equipo1 {
+  background-color: #0c0ce2;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: blue;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px black;
+  font-family: "Roboto Slab", serif;
+}
+
+.logo--equipo2 {
+  background-color: #0c0ce2;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px black;
+  font-family: "Roboto Slab", serif;
+}
+
+.logo--equipo3 {
+  background-color: #0c0ce2;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px black;
+  font-family: "Roboto Slab", serif;
+}
+
+.logo--equipo4 {
+  background-color: #0c0ce2;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: darkblue;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px black;
+  font-family: "Roboto Slab", serif;
+}
+
+.peñarol-club,
+.ucam-club,
+.realMadrid-club,
+.denver-club {
+  border-color: red;
+}
+
+.peñarol-club {
+  background-image: url("imagenes/club/club.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ucam-club {
+  background-image: url("imagenes/club/club.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.realMadrid-club {
+  background-image: url("imagenes/club/club.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.denver-club {
+  background-image: url("imagenes/club/club.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 /*************************** footer****************************************************/
@@ -292,12 +391,12 @@ p {
 }
 
 .txt1 {
-  text-align: right;
-  padding-top: 5%;
   border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   color: black;
+  text-align: right;
+  padding-top: 5%;
+  font-size: 20px;
 }
 
 .conteiner2 img {
@@ -310,14 +409,14 @@ p {
 }
 
 .txt2 {
+  border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
+  color: black;
   font-size: 20px;
   text-align: left;
   padding-top: 15%;
   padding-right: 0%;
   margin-left: 5%;
-  border-bottom: solid darkblue 5px;
-  color: black;
 }
 
 .conteiner3 img {
@@ -328,12 +427,12 @@ p {
 }
 
 .txt3 {
-  text-align: center;
-  padding-top: 15%;
   border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
   color: black;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 10px;
 }
 
 #conteiner4 img {
@@ -344,14 +443,14 @@ p {
 }
 
 .txt4 {
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
   padding-top: 5%;
-  border-bottom: solid darkblue 5px;
-  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: black;
 }
 
 .conteiner5 img {
@@ -365,11 +464,11 @@ p {
 }
 
 .txt5 {
+  border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
+  color: black;
   font-size: 20px;
   text-align: left;
-  border-bottom: solid darkblue 5px;
-  color: black;
 }
 
 .conteiner6 img {
@@ -382,14 +481,14 @@ p {
 }
 
 .txt6 {
+  border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
+  color: black;
   font-size: 20px;
   text-align: left;
   padding-top: 10%;
   margin-left: 5%;
-  border-bottom: solid darkblue 5px;
   margin-right: 40%;
-  color: black;
 }
 
 .conteiner7 img {
@@ -404,23 +503,23 @@ p {
 }
 
 .txt7 {
+  border-bottom: solid darkblue 5px;
   font-family: "Montserrat", sans-serif;
+  color: black;
   font-size: 20px;
   text-align: top;
   padding-top: 30%;
   margin-left: 20%;
-  border-bottom: solid darkblue 5px;
-  color: black;
 }
 
 .txt7b {
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
   text-align: end;
   padding-top: 0%;
-  border-bottom: solid darkblue 5px;
   margin-right: 40%;
-  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: black;
 }
 
 .conteiner8 img {
@@ -434,14 +533,14 @@ p {
 }
 
 .txt8 {
+  border-bottom: solid darkblue 5px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
   text-align: left;
   padding-top: 25%;
   margin-left: 5%;
-  border-bottom: solid darkblue 5px;
   margin-right: 40%;
-  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: black;
 }
 
 /*******************************seccion galeria *********************************/
