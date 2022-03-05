@@ -10,13 +10,29 @@
 
     <title>Facu Campazzo Web - Camisetas</title>
 
-    <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="estilos.css">
 </head> 
 <body>
-    <div class="fotoCamisetas"> </div> 
-    
+    <!-- barra navegacion inicio --> 
+    <header class="conteiner-fluid fotoCamisetas">   
+        <nav class="navbar navbar-expand">
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle" id="darkbutton" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagenes/FC7 logo.png" width="130" height="100" alt=""></button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a href="biografia.html" class="dropdown-item">Biografia</a></li>
+                    <li><a href="galeria.html" class="dropdown-item">Galeria</a></li>
+                    <li><a href="camisetas.html" class="dropdown-item">Camisetas</a></li>
+                    <li><a href="contacto.html" class="dropdown-item">Sorteo</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- barra navegacion fin  -->
+
     <!-- links hacia otras secciones -->
     <div class="menu">
         <div class="in">
@@ -30,7 +46,7 @@
             </a>
         </div>
         <div class="gale">
-            <a href="camisetas.html">
+            <a href="galeria.html">
                 <h4>GALERIA</h4>
             </a>
         </div>
@@ -49,37 +65,37 @@
             <div class="container-camisetas">
                 <div class="card">
                     <img src="imagenes/peñarol/debutFacu.jpg" alt="">
-                    <h4>Peñarol MDP</h4>
+                    <h5>Peñarol MDP</h5>
                     <p>Temporada 08/09</p>
                     <button type="button" id="button"><a href="https://www.asmundodeporte.com.ar/productos/camiseta-penarol-facu-campazzo-retro-2011-as/">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/realMadrid/FacuGritando2.jpg" alt="">
-                    <h4>Real Madrid</h4>
+                    <h5>Real Madrid</h5>
                     <p>Temporada 14/15</p>
-                    <button type="button" id="button""><a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
+                    <button type="button" id="button"><a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/murcia/FacuFestejo.jpg" alt="facu">
-                    <h4>Ucam Murcia</h4>
+                    <h5>Ucam Murcia</h5>
                     <p>Temporada 15/16</p>
                     <button type="button" id="button"><a href="https://store.ucam.edu/products/camiseta-juego-ucam-cb-21-22-rojo">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/realMadrid/FacuCamisteAzul.jpg" alt="">
-                    <h4>Real Madrid</h4>
+                    <h5>Real Madrid</h5>
                     <p>Temporada 17/18</p>
                     <button type="button" id="button"> <a href="https://us.shop.realmadrid.com/collections/basketball-jerseys">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/denver/FacuCamisetaAzul.jpg" target="_blank">
-                    <h4>Denver Nuggets</h4>
+                    <h5>Denver Nuggets</h5>
                     <p>Temporada 20/21</p>
                     <button type="button" id="button"><a href="https://store.nba.com/denver-nuggets/mens-denver-nuggets-nike-white-2020/21-swingman-custom-jersey-association-edition/t-92695126+p-81747482044+z-7-1234666093?_ref=p-DLP:m-GRID:i-r6c2:po-20">Comprar</a></button>
                 </div>
                 <div class="card">
                     <img src="imagenes/SelArg/FacuFestejadndo.jpg" target="_blank">
-                    <h4>Seleccion Argentina</h4>
+                    <h5>Seleccion Argentina</h5>
                     <p>Temporada 20/21</p>
                     <button type="button" id="button"><a href="https://articulo.mercadolibre.com.ar/MLA-1119045111-camiseta-jordan-seleccion-argentina-campazzo-original-_JM?searchVariation=174086861128#searchVariation=174086861128&position=51&search_layout=stack&type=item&tracking_id=e278f8ba-47c1-43f1-8e7b-fe7209ab02dd">Comprar</a></button>
                 </div>
@@ -113,5 +129,7 @@
     <script>
         new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
