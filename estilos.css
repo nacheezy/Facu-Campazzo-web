@@ -514,8 +514,9 @@ p {
   background-color: #0c0ce2;
   border: 2px solid white;
 }
-.item :hover {
-  transform: scale(1.02);
+
+.item:hover {
+  transform: scale(1.03);
   transition: all 1s;
 }
 
@@ -1035,6 +1036,14 @@ p {
     background-size: cover;
   }
 
+  .item9 {
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-position: center;
+    background-size: cover;
+  }
+
   /*************************** MQ CONTACTO **************************/
   .fotoContacto {
     background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
@@ -1342,6 +1351,14 @@ p {
     background-size: cover;
   }
 
+  .item9 {
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    grid-column: 1/3;
+    grid-row: 5/6;
+    background-position: center;
+    background-size: cover;
+  }
+
   /********MQ contacto **********/
   .fotoContacto {
     background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
@@ -1611,6 +1628,14 @@ p {
     background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
     grid-column: 2/3;
     grid-row: 3/4;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item9 {
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    grid-column: 1/5;
+    grid-row: 5/6;
     background-position: center;
     background-size: cover;
   }
@@ -2083,7 +2108,7 @@ p {
     background-image: url(imagenes/denver/FacuBandeja.jpg);
     grid-column: 1/2;
     grid-row: 1/3;
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
@@ -2099,15 +2124,15 @@ p {
     background-image: url(imagenes/murcia/FacuFestejo.jpg);
     grid-column: 3/5;
     grid-row: 1/2;
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
 
   .item4 {
     background-image: url(imagenes/realMadrid/banner.jpg);
-    grid-column: 1/5;
-    grid-row: 2/3;
-    background-position: top;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-position: center;
     background-size: cover;
   }
 
@@ -2122,7 +2147,7 @@ p {
   .item6 {
     background-image: url(imagenes/SelArg/TapaAKobe.jpg);
     grid-column: 3/5;
-    grid-row: 3/5;
+    grid-row: 2/4;
     background-position: right;
     background-size: cover;
   }
@@ -2139,7 +2164,15 @@ p {
     background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
     grid-column: 2/3;
     grid-row: 3/4;
-    background-position: start;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .item9 {
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background-position: top;
     background-size: cover;
   }
 
@@ -2250,6 +2283,129 @@ p {
   #psorteo {
     font-size: 15px;
     padding-top: 10px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /************MQ INDEX************************/
+  .fotoindex {
+    height: 900px !important;
+  }
+
+  #pelota {
+    width: 75px;
+    position: fixed;
+    top: 750px;
+    left: 1750px;
+    animation: pelota 7s both;
+  }
+
+  /************MQ BIOGRAFIA************************/
+  .fotoBiografia {
+    height: 900px !important;
+  }
+
+  /*********** MQ GALERIA **************************/
+  .fotoGaleria {
+    background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+    background-position-y: 25%;
+    background-size: cover;
+    height: 700px !important;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
+  }
+
+  .item {
+    min-height: 200px;
+  }
+
+  .item1 {
+    background-image: url(imagenes/denver/FacuBandeja.jpg);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .item2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .item3 {
+    background-image: url(imagenes/murcia/FacuFestejo.jpg);
+    grid-column: 3/5;
+    grid-row: 1/2;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .item4 {
+    background-image: url(imagenes/realMadrid/banner.jpg);
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item5 {
+    background-image: url(imagenes/peñarol/FacuMvp.jpg);
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item6 {
+    background-image: url(imagenes/SelArg/TapaAKobe.jpg);
+    grid-column: 3/5;
+    grid-row: 2/4;
+    background-position: right;
+    background-size: cover;
+    height: 410px;
+  }
+
+  .item7 {
+    background-image: url(imagenes/municipal/Facumunicipal2.jpg);
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item8 {
+    background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
+    grid-column: 2/3;
+    grid-row: 4/6;
+    background-position: top;
+    background-size: cover;
+    height: 410px;
+  }
+
+  .item9 {
+    background-image: url(imagenes/denver/FacuBandeja5.jpg);
+    grid-column: 3/5;
+    grid-row: 4/6;
+    background-position: top;
+    background-size: cover;
+    height: 410px;
+  }
+
+  /********** MQ Camisetas *******/
+  .fotoCamisetas {
+    height: 850px !important;
+  }
+
+  /********** MQ Contacto *******/
+  .fotoContacto {
+    height: 850px !important;
   }
 }
 
