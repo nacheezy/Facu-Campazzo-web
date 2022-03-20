@@ -15,6 +15,10 @@ $color2: rgb(12, 12, 226);
 $font1:'Montserrat', sans-serif;
 $font2:'Roboto Slab', serif;
 
+@mixin background {
+    background-position: center;
+    background-size: cover;
+}
 /***********************************menu links*********************************/
 .menu{
     width: 100% ;
@@ -34,11 +38,11 @@ $font2:'Roboto Slab', serif;
     a:hover{
         color: rgb(83, 174, 204);
     }
-    h4{
+    .fondotxt{
         text-align: center;
         align-items: center;
         text-shadow: 5px 5px 3px black;
-        font-size: 50px;
+        font-size: 40px;
         font-family: $font1;
     }
 }
@@ -104,7 +108,7 @@ $font2:'Roboto Slab', serif;
 }
 .s{
     background-image: url(imagenes/denver/FacuBandeja4.jpg);
-    width: 100%;
+    width: 40%;
     background-position: center;
     background-size: cover;
     border: 1px solid white;
@@ -112,10 +116,10 @@ $font2:'Roboto Slab', serif;
     align-items: center;
     justify-content: center;
     text-align: center;
-    :hover{
-        transform: scale(1.2);
-        transition: all 1s;
-    }
+    // :hover{
+    //     transform: scale(1);
+    //     transition: all 1s;
+    // }
 }
 /**************** animacion *****************/
 
@@ -233,21 +237,6 @@ $equipos: (
         font-family: $font2;
     }    
 }
-// .peñarol-club, 
-// .ucam-club,
-// .realMadrid-club,
-// .denver-club {
-//     border-color:red ;
-// }
-
-// @each $club in peñarol , ucam , realMadrid , denver {
-//         .#{$club}-club {
-//         background-image: url("imagenes/club/#{club}.jpg");
-//         background-position: center;
-//         background-size: cover;   
-//     }
-// }
-
 .preview{
     background-image: url(imagenes/layered-peaks-haikei.svg), url(imagenes/denver/facuDenver.png);
     background-position: center;
@@ -485,29 +474,31 @@ p{
 }
 .video1{
     display: flex;
-    margin: 5% 0% 1% 5%;
+    justify-content: center;
+    margin: 0%;
     padding: 3%;
     background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+    box-shadow: 0px 5px 0 rgba(31, 103, 235, 0.7);
     
 }
 .video2{
     display: flex;
-    justify-content: flex-end;
-    margin: 2% 5% 2% 0% ;
+    justify-content: center;
+    margin: 0%;
     padding: 3%;
     background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0  rgba(31, 103, 235, 0.7);
+    box-shadow: 0px 5px 0  rgba(31, 103, 235, 0.7);
 }
 .video3{
     display: flex;
-    margin: 5% 0% 1% 5%;
+    justify-content: center;
+    margin: 0%;
     padding: 3%;
     background-color: $color1;
     box-shadow: 1px 0px 0 #fff;
-    box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+    box-shadow: 0px 5px 0 rgba(31, 103, 235, 0.7);
 }
 .separacion{
     background-color: white;
@@ -642,9 +633,7 @@ p{
             font-weight: 600;
             text-decoration: none;
             color: white;
-            text-transform: uppercase;
-
-            
+            text-transform: uppercase;            
         }
     }
     h5{
@@ -902,79 +891,70 @@ p{
     }
     .conteiner-fluid{
     
-    width: 100%;
-    height: auto; 
-    background-position: center;  
+        width: 100%;
+        height: auto; 
+        background-position: center;  
     }
     .fotoGaleria{
         background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
         height: 200px;
+        @include background();
     }
     .item{
         height: 200px;
     }
     .item1{
         background-image: url(imagenes/denver/FacuBandeja.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item2{
         background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item3{
         background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item4{
         background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item5{
         background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item6{
-        background-position: center;
-        background-size: cover;
+        @include background();
         background-image: url(imagenes/SelArg/TapaAKobe.jpg);
     }
     .item7{
         background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item8{
         background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-        background-position: start;
-        background-size: cover;
+        @include background();
     }
     .item9{
         background-image: url(imagenes/denver/FacuBandeja5.jpg);
         grid-column: 1/2 ;
         grid-row: 5/6;
-        background-position: center;
-        background-size: cover;
+        @include background();
+    }
+    .video1{
+
     }
     
     /*************************** MQ CONTACTO **************************/
     
     .fotoContacto{
         background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 300px;
     }
     #fondo{
         background-image: url(imagenes/denver/FacuFestejandoTriple.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
         
     }
     .registro{
@@ -1048,8 +1028,7 @@ p{
 @media only screen and (min-width:425px){
     .fotoindex{
         background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .dropdown{
         margin: 15%; 
@@ -1075,8 +1054,7 @@ p{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 300px;
     }
     #background{
@@ -1134,12 +1112,13 @@ p{
     /****MQ BIOGRAFIA****/
     .fotoBiografia{
         background-image: url(imagenes/peñarol/Facundo-Campazzo-en-Penarol.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 300px;
     }
     .conteiner-all img{
         width: 250px;
+        margin-left: 20%;
+        text-align: center;
     }
     .conteiner2  img{
         width: 100%;
@@ -1186,11 +1165,14 @@ p{
         margin: 0;
         margin-bottom: 3%;
     }
+    .txt7b{
+        text-align: center;
+        margin: 0%;
+    }
     /****************** MQ GALERIA *****************************/
     .fotoGaleria{
         background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 300px;
     }
     .galeria{
@@ -1201,38 +1183,31 @@ p{
     }
     .item1{
         background-image: url(imagenes/denver/FacuBandeja.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item2{
         background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item3{
         background-image: url(imagenes/murcia/FacuFestejo.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item4{
         background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item5{
         background-image: url(imagenes/peñarol/FacuMvp.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item6{
-        background-position: center;
-        background-size: cover;
+        @include background();
         background-image: url(imagenes/SelArg/TapaAKobe.jpg);
     }
     .item7{
         background-image: url(imagenes/municipal/Facumunicipal2.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item8{
         background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
@@ -1243,8 +1218,11 @@ p{
         background-image: url(imagenes/denver/FacuBandeja5.jpg);
         grid-column: 1/3 ;
         grid-row: 5/6;
-        background-position: center;
-        background-size: cover;
+        @include background();
+    }
+    .video1, .video2, .video3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     /********MQ contacto **********/
     .fotoContacto{
@@ -1295,7 +1273,6 @@ p{
         margin-bottom: 5%;
     }
     /******************** MQ CAMISETAS *******************************/
-    
     .fotoCamisetas{
         background-image: url(imagenes/realMadrid/FacuPuñoApretado.jpg) !important;
         height: 250px;
@@ -1371,7 +1348,6 @@ p{
         padding: 2%;
     }
     /****MQ BIOGRAFIA****/
-    
     .conteiner-all img{
         width: 350px;
         float: left;
@@ -1383,6 +1359,15 @@ p{
     .conteiner3 img{
         width: 600px;
         margin-left: 10%;
+    }
+    .conteiner6{
+        width: 90%;
+        margin-left: 10%;
+
+    }
+    .txt6{
+        margin: 0%;
+        margin-right: 10%;
     }
     .menu{
         width: 100%;
@@ -1426,8 +1411,7 @@ p{
     /*********************MQ galeria *******************/
     .fotoGaleria{
         background-image: url(imagenes/murcia/FacuPase.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 400px;
     }
     .galeria{
@@ -1443,27 +1427,23 @@ p{
         background-image: url(imagenes/denver/FacuBandeja.jpg);
         grid-column: 1/2;
         grid-row: 1/3;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item2{
         grid-column: 2/3;
         grid-row: 1/2;
         background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item3{
         background-image: url(imagenes/murcia/FacuFestejo.jpg);
         grid-column: 3/5;
         grid-row: 1/2;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item4{
         background-image: url(imagenes/realMadrid/banner.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
         grid-column: 1/5;
         grid-row: 2/3;
     }
@@ -1471,8 +1451,7 @@ p{
         background-image: url(imagenes/peñarol/FacuMvp.jpg);
         grid-column: 1/2;
         grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item6{
         background-image: url(imagenes/SelArg/TapaAKobe.jpg);
@@ -1485,22 +1464,19 @@ p{
         background-image: url(imagenes/municipal/Facumunicipal2.jpg);
         grid-column: 1/5 ;
         grid-row: 4/5;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item8{
         background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
         grid-column: 2/3 ;
         grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item9{
         background-image: url(imagenes/denver/FacuBandeja5.jpg);
         grid-column: 1/5 ;
         grid-row: 5/6;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .menu{
         h4{
@@ -1511,8 +1487,7 @@ p{
     /********MQ contacto **********/
     .fotoContacto{
         background-image: url(imagenes/denver/FacuBandeja4.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 500px;
     }
     #fondo{
@@ -1585,12 +1560,11 @@ p{
         height: 130px;
     }
 }
-@media only screen and (min-width:1024px) { 
+@media only screen and (min-width:1024px){ 
     /**********MQ menu de links *****/
     .fotoindex{
         background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 500px;
     }
     .menu{
@@ -1634,8 +1608,7 @@ p{
     /************************* MQ INDEX **************************/ 
     .fotoindex{
         background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         height: 700px !important;
 
     }
@@ -1651,8 +1624,7 @@ p{
     }
     .conteiner-fluid{
         background-image: url(imagenes/imagenPri2.jpg) !important;
-        background-position: center;
-        background-size: cover;
+        @include background();
         width: 100%;
         // height: 100%;
         
@@ -1938,15 +1910,12 @@ p{
         grid-row: 1/3;
         background-position: top;
         background-size: cover;
-        
-        
     }
     .item2{
         grid-column: 2/3;
         grid-row: 1/2;
         background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item3{
         background-image: url(imagenes/murcia/FacuFestejo.jpg);
@@ -1959,29 +1928,25 @@ p{
         background-image: url(imagenes/realMadrid/banner.jpg);
         grid-column: 1/3;
         grid-row: 2/4;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item5{
         background-image: url(imagenes/peñarol/FacuMvp.jpg);
         grid-column: 1/2;
         grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item6{
         background-image: url(imagenes/SelArg/TapaAKobe.jpg);
         grid-column: 3/5;
         grid-row: 2/4 ;
-        background-position: right;
-        background-size: cover;
+        @include background();
     }
     .item7{
         background-image: url(imagenes/municipal/Facumunicipal2.jpg);
         grid-column: 1/5 ;
         grid-row: 4/5;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item8{
         background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
@@ -1996,7 +1961,7 @@ p{
         grid-row: 3/4;
         background-position: top;
         background-size: cover;
-    }
+    }   
     /******************************* MQ CAMISETAS ******************************/
 
     .fotoCamisetas{
@@ -2006,7 +1971,7 @@ p{
         height: 500px !important;
     }
     #footerCamisetas{
-        margin-top: 10rem !important;
+        margin-top: 29rem !important;
     }
     .container-camisetas a{
         font-weight: 500;
@@ -2022,7 +1987,6 @@ p{
         border-radius: 15px;
         border: none;
         margin-left: 20%;
-        
     }
      /*********************************MQ CONTACTO *****************************/
     
@@ -2101,8 +2065,9 @@ p{
         font-size: 15px;
         padding-top: 10px;
     }
+
 } 
-@media only screen and (min-width:1440px) { 
+@media only screen and (min-width:1200px){ 
     /************MQ INDEX************************/
     .fotoindex{
         height: 900px !important;
@@ -2119,6 +2084,7 @@ p{
         height: 900px !important;
     }
     /*********** MQ GALERIA **************************/
+    
     .fotoGaleria{
         background-image: url(imagenes/murcia/FacuPase.jpg) !important;
         background-position-y: 25%;
@@ -2146,9 +2112,8 @@ p{
         grid-column: 2/3;
         grid-row: 1/2;
         background-image: url(imagenes/peñarol/Facubandeja3.jpg);
-        background-position: center;
-        background-size: cover;
         height: 400px;
+        @include background();
     }
     .item3{
         background-image: url(imagenes/murcia/FacuFestejo.jpg);
@@ -2161,15 +2126,13 @@ p{
         background-image: url(imagenes/realMadrid/banner.jpg);
         grid-column: 1/3;
         grid-row: 3/4;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item5{
         background-image: url(imagenes/peñarol/FacuMvp.jpg);
         grid-column: 1/2;
         grid-row: 5/6;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item6{
         background-image: url(imagenes/SelArg/TapaAKobe.jpg);
@@ -2183,8 +2146,7 @@ p{
         background-image: url(imagenes/municipal/Facumunicipal2.jpg);
         grid-column: 1/2 ;
         grid-row: 4/5;
-        background-position: center;
-        background-size: cover;
+        @include background();
     }
     .item8{
         background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
@@ -2205,6 +2167,20 @@ p{
     /********** MQ Camisetas *******/ 
     .fotoCamisetas{
         height: 850px !important;
+    }
+    
+    .container-camisetas{
+        .card{
+            width: 400px;
+            height: 400px;
+        }
+    }
+    #button{
+        margin: 0%;
+        margin-left: 30%;
+    }
+    #footerCamisetas{
+        margin-top: 30rem !important;
     }
     /********** MQ Contacto *******/ 
     .fotoContacto{

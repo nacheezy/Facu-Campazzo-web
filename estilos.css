@@ -24,11 +24,11 @@
 .menu a:hover {
   color: #53aecc;
 }
-.menu h4 {
+.menu .fondotxt {
   text-align: center;
   align-items: center;
   text-shadow: 5px 5px 3px black;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -98,7 +98,7 @@
 
 .s {
   background-image: url(imagenes/denver/FacuBandeja4.jpg);
-  width: 100%;
+  width: 40%;
   background-position: center;
   background-size: cover;
   border: 1px solid white;
@@ -106,10 +106,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-.s :hover {
-  transform: scale(1.2);
-  transition: all 1s;
 }
 
 /**************** animacion *****************/
@@ -530,30 +526,32 @@ p {
 
 .video1 {
   display: flex;
-  margin: 5% 0% 1% 5%;
+  justify-content: center;
+  margin: 0%;
   padding: 3%;
   background-color: darkblue;
   box-shadow: 1px 0px 0 #fff;
-  box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+  box-shadow: 0px 5px 0 rgba(31, 103, 235, 0.7);
 }
 
 .video2 {
   display: flex;
-  justify-content: flex-end;
-  margin: 2% 5% 2% 0%;
+  justify-content: center;
+  margin: 0%;
   padding: 3%;
   background-color: darkblue;
   box-shadow: 1px 0px 0 #fff;
-  box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+  box-shadow: 0px 5px 0 rgba(31, 103, 235, 0.7);
 }
 
 .video3 {
   display: flex;
-  margin: 5% 0% 1% 5%;
+  justify-content: center;
+  margin: 0%;
   padding: 3%;
   background-color: darkblue;
   box-shadow: 1px 0px 0 #fff;
-  box-shadow: 10px 10px 0 rgba(31, 103, 235, 0.7);
+  box-shadow: 0px 5px 0 rgba(31, 103, 235, 0.7);
 }
 
 .separacion {
@@ -979,9 +977,9 @@ p {
 
   .fotoGaleria {
     background-image: url(imagenes/murcia/FacuPase.jpg) !important;
+    height: 200px;
     background-position: center;
     background-size: cover;
-    height: 200px;
   }
 
   .item {
@@ -1032,7 +1030,7 @@ p {
 
   .item8 {
     background-image: url(imagenes/peñarol/FacuCamisetaEspecial.jpg);
-    background-position: start;
+    background-position: center;
     background-size: cover;
   }
 
@@ -1231,6 +1229,8 @@ p {
 
   .conteiner-all img {
     width: 250px;
+    margin-left: 20%;
+    text-align: center;
   }
 
   .conteiner2 img {
@@ -1285,6 +1285,11 @@ p {
     text-align: center;
     margin: 0;
     margin-bottom: 3%;
+  }
+
+  .txt7b {
+    text-align: center;
+    margin: 0%;
   }
 
   /****************** MQ GALERIA *****************************/
@@ -1357,6 +1362,11 @@ p {
     grid-row: 5/6;
     background-position: center;
     background-size: cover;
+  }
+
+  .video1, .video2, .video3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   /********MQ contacto **********/
@@ -1506,6 +1516,16 @@ p {
   .conteiner3 img {
     width: 600px;
     margin-left: 10%;
+  }
+
+  .conteiner6 {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .txt6 {
+    margin: 0%;
+    margin-right: 10%;
   }
 
   .menu {
@@ -2148,7 +2168,7 @@ p {
     background-image: url(imagenes/SelArg/TapaAKobe.jpg);
     grid-column: 3/5;
     grid-row: 2/4;
-    background-position: right;
+    background-position: center;
     background-size: cover;
   }
 
@@ -2185,7 +2205,7 @@ p {
   }
 
   #footerCamisetas {
-    margin-top: 10rem !important;
+    margin-top: 29rem !important;
   }
 
   .container-camisetas a {
@@ -2285,7 +2305,7 @@ p {
     padding-top: 10px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   /************MQ INDEX************************/
   .fotoindex {
     height: 900px !important;
@@ -2334,9 +2354,9 @@ p {
     grid-column: 2/3;
     grid-row: 1/2;
     background-image: url(imagenes/peñarol/Facubandeja3.jpg);
+    height: 400px;
     background-position: center;
     background-size: cover;
-    height: 400px;
   }
 
   .item3 {
@@ -2401,6 +2421,20 @@ p {
   /********** MQ Camisetas *******/
   .fotoCamisetas {
     height: 850px !important;
+  }
+
+  .container-camisetas .card {
+    width: 400px;
+    height: 400px;
+  }
+
+  #button {
+    margin: 0%;
+    margin-left: 30%;
+  }
+
+  #footerCamisetas {
+    margin-top: 30rem !important;
   }
 
   /********** MQ Contacto *******/
